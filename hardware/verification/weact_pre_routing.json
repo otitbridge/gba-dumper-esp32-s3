@@ -1,0 +1,26 @@
+{
+  "board": "WeAct ESP32S3-A N16R2",
+  "milestone": "before_four_layer_routing",
+  "date": "2026-09-28",
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 90,
+  "schematic_parity_issues": 0,
+  "tracks_and_vias": 0,
+  "copper_pours": 0,
+  "schematic_components": 52,
+  "pcba_components": 35,
+  "pcba_part_numbers": 5,
+  "pinmap_and_bom_tests": "PASS",
+  "placement_test": "PASS",
+  "manufacturing_rules_test": "PASS",
+  "cpp17_pinmap_compile": "PASS",
+  "physical_validation": "NOT_PERFORMED",
+  "manufacturing_approved": false,
+  "source_sha256": {
+    "hardware/gba_dumper.kicad_sch": "0ef67beb278ecb44cf69f3585eaad64375db0258fca3cf60cace7108624d7a2c",
+    "hardware/gba_dumper.kicad_pcb": "7ca8aee6bb5358876612376a5121b93505b62749c3cc394b5cc9d71a1dade96c",
+    "hardware/pinmap.json": "988873b187e78e051cbf6c844811bc5b8705386409450f9d9c34b971ee50f2dc",
+    "firmware/main/pinmap.hpp": "02457731daafd98aed42f8005ef1c800df12149d5508e9c08de288286a1ffd03"
+  }
+}

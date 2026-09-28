@@ -1,0 +1,20 @@
+{
+  "purpose": "Temporary board copy with 0.25mm CART_3V3 track; production board unchanged",
+  "detected": [
+    {
+      "description": "トラック幅 (ルール 'V1 power minimum track width' 最小幅 0.5000 mm; 現状 0.2500 mm)",
+      "items": [
+        {
+          "description": "配線 [/CART_3V3] ( F.Cu 上、長さ: 5.0000 mm )",
+          "pos": {
+            "x": 25.0,
+            "y": 46.0
+          },
+          "uuid": "f5fe95c8-d572-4db6-ab1e-ddf54be788e1"
+        }
+      ],
+      "severity": "error",
+      "type": "track_width"
+    }
+  ]
+}

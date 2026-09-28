@@ -1,0 +1,67 @@
+[
+  {
+    "refs": [
+      "JP1",
+      "JP2"
+    ],
+    "manufacturer": "Chang Enn",
+    "mpn": "PH-1X2SG",
+    "lcsc": "",
+    "classification": "Hand solder",
+    "rating": "3A; 2.54mm pitch; 0.64mm square pins",
+    "footprint": "GBA_Mechanical:PinHeader_1x02_P2.54mm_D1.02mm",
+    "source": "https://akizukidenshi.com/catalog/g/g108593/",
+    "supplier": "Akizuki",
+    "supplier_code": "108593",
+    "quantity": 2,
+    "pack_quantity": 10
+  },
+  {
+    "refs": [],
+    "manufacturer": "Neltron",
+    "mpn": "2228GG",
+    "supplier": "Akizuki",
+    "supplier_code": "103890",
+    "quantity": 2,
+    "pack_quantity": 20,
+    "source": "https://akizukidenshi.com/catalog/g/g103890/",
+    "rating": "3A; 2.54mm; black; handle; 13.5mm high",
+    "usage": "JP1 cap supplied loose; JP2 cap installed"
+  },
+  {
+    "refs": [
+      "J1",
+      "J2"
+    ],
+    "manufacturer": "Ronmee Industrial Corporation",
+    "mpn": "FH2.54-40U1GF8.5-0.5",
+    "lcsc": "",
+    "classification": "Hand solder",
+    "rating": "3A; 2.54mm; housing 8.5mm; WeAct header mating pending",
+    "footprint": "GBA_Mechanical:PinSocket_1x22_P2.54mm_D1.02mm",
+    "source": "https://akizukidenshi.com/catalog/g/g110073/",
+    "supplier": "Akizuki",
+    "supplier_code": "110073",
+    "quantity": 2,
+    "pack_quantity": 1,
+    "usage": "J1/J2: two 40-way strips, one 22-way socket cut from each",
+    "status": "SELECTED_WEACT_MATING_PENDING"
+  },
+  {
+    "refs": [
+      "J3"
+    ],
+    "manufacturer": "Not specified by user",
+    "mpn": "N/A - manufacturer part number not identified",
+    "lcsc": "",
+    "classification": "Hand solder",
+    "rating": "GBA 32 contacts; user-approved footprint; AliExpress item 1005005472303111",
+    "footprint": "Gekkio_Connector_PCBEdge:GameBoy_Cartridge_AGB_1x32_P1.50mm_Socket_Horizontal",
+    "source": "https://ja.aliexpress.com/item/1005005472303111.html",
+    "supplier": "AliExpress",
+    "supplier_code": "1005005472303111",
+    "quantity": 1,
+    "pack_quantity": "Listing variant not recorded",
+    "status": "FOOTPRINT_APPROVED_USER_SUPPLIED_SOURCE"
+  }
+]

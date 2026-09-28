@@ -1,0 +1,2265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/gba-dumper/hardware/gba_dumper.kicad_sch</source>
+    <date>2026-09-28T13:34:16</date>
+    <tool>Eeschema 10.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>gba_dumper.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">CC0805KRX7R9BB104</field>
+        <field name="LCSC">C49678</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">50V; X7R; +/-10%</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C49678</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="C" description=""/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="CC0805KRX7R9BB104"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="50V; X7R; +/-10%"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C49678"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd0af603-9451-5087-9ff7-bba77f06f543</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL21A106KAYNNNE</field>
+        <field name="LCSC">C15850</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">25V; X5R; +/-10%</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C15850</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="C" description=""/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL21A106KAYNNNE"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="25V; X5R; +/-10%"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C15850"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d3fea63-6958-5253-8cd9-0904092aec68</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>WEACT_LEFT</value>
+      <footprint>GBA_Mechanical:PinSocket_1x22_P2.54mm_D1.02mm</footprint>
+      <fields>
+        <field name="Manufacturer">Ronmee Industrial Corporation</field>
+        <field name="MPN">FH2.54-40U1GF8.5-0.5</field>
+        <field name="LCSC"/>
+        <field name="Assembly">Hand solder</field>
+        <field name="Rating">3A; 2.54mm; housing 8.5mm; WeAct header mating pending</field>
+        <field name="Supplier">Akizuki</field>
+        <field name="Supplier Code">110073</field>
+        <field name="Footprint">GBA_Mechanical:PinSocket_1x22_P2.54mm_D1.02mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="WEACT_LEFT" description=""/>
+      <property name="Manufacturer" value="Ronmee Industrial Corporation"/>
+      <property name="MPN" value="FH2.54-40U1GF8.5-0.5"/>
+      <property name="LCSC" value=""/>
+      <property name="Assembly" value="Hand solder"/>
+      <property name="Rating" value="3A; 2.54mm; housing 8.5mm; WeAct header mating pending"/>
+      <property name="Supplier" value="Akizuki"/>
+      <property name="Supplier Code" value="110073"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9237d9b5-ef07-5947-93cc-bb27222b6e37</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>WEACT_RIGHT</value>
+      <footprint>GBA_Mechanical:PinSocket_1x22_P2.54mm_D1.02mm</footprint>
+      <fields>
+        <field name="Manufacturer">Ronmee Industrial Corporation</field>
+        <field name="MPN">FH2.54-40U1GF8.5-0.5</field>
+        <field name="LCSC"/>
+        <field name="Assembly">Hand solder</field>
+        <field name="Rating">3A; 2.54mm; housing 8.5mm; WeAct header mating pending</field>
+        <field name="Supplier">Akizuki</field>
+        <field name="Supplier Code">110073</field>
+        <field name="Footprint">GBA_Mechanical:PinSocket_1x22_P2.54mm_D1.02mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="WEACT_RIGHT" description=""/>
+      <property name="Manufacturer" value="Ronmee Industrial Corporation"/>
+      <property name="MPN" value="FH2.54-40U1GF8.5-0.5"/>
+      <property name="LCSC" value=""/>
+      <property name="Assembly" value="Hand solder"/>
+      <property name="Rating" value="3A; 2.54mm; housing 8.5mm; WeAct header mating pending"/>
+      <property name="Supplier" value="Akizuki"/>
+      <property name="Supplier Code" value="110073"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d504a11d-cf01-55e3-b6a5-a694215dfe6d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>GBA_32_LOGICAL_PINS</value>
+      <footprint>Gekkio_Connector_PCBEdge:GameBoy_Cartridge_AGB_1x32_P1.50mm_Socket_Horizontal</footprint>
+      <fields>
+        <field name="Manufacturer">Not specified by user</field>
+        <field name="MPN">N/A - manufacturer part number not identified</field>
+        <field name="LCSC"/>
+        <field name="Assembly">Hand solder</field>
+        <field name="Rating">GBA 32 contacts; user-approved footprint; AliExpress item 1005005472303111</field>
+        <field name="Supplier">AliExpress</field>
+        <field name="Supplier Code">1005005472303111</field>
+        <field name="Footprint">Gekkio_Connector_PCBEdge:GameBoy_Cartridge_AGB_1x32_P1.50mm_Socket_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="GBA_SLOT" description=""/>
+      <property name="Manufacturer" value="Not specified by user"/>
+      <property name="MPN" value="N/A - manufacturer part number not identified"/>
+      <property name="LCSC" value=""/>
+      <property name="Assembly" value="Hand solder"/>
+      <property name="Rating" value="GBA 32 contacts; user-approved footprint; AliExpress item 1005005472303111"/>
+      <property name="Supplier" value="AliExpress"/>
+      <property name="Supplier Code" value="1005005472303111"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08a30a4f-7b2b-5a2d-8046-50a86fa2c456</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP1">
+      <value>WR ENABLE / DEFAULT OPEN</value>
+      <footprint>GBA_Mechanical:PinHeader_1x02_P2.54mm_D1.02mm</footprint>
+      <fields>
+        <field name="Manufacturer">Chang Enn</field>
+        <field name="MPN">PH-1X2SG</field>
+        <field name="LCSC"/>
+        <field name="Assembly">Hand solder</field>
+        <field name="Rating">3A; 2.54mm pitch; 0.64mm square pins</field>
+        <field name="Supplier">Akizuki</field>
+        <field name="Supplier Code">108593</field>
+        <field name="Footprint">GBA_Mechanical:PinHeader_1x02_P2.54mm_D1.02mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="JUMPER" description=""/>
+      <property name="Manufacturer" value="Chang Enn"/>
+      <property name="MPN" value="PH-1X2SG"/>
+      <property name="LCSC" value=""/>
+      <property name="Assembly" value="Hand solder"/>
+      <property name="Rating" value="3A; 2.54mm pitch; 0.64mm square pins"/>
+      <property name="Supplier" value="Akizuki"/>
+      <property name="Supplier Code" value="108593"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2a0e5b6-96f4-5e7b-ac62-f11049d3979a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP2">
+      <value>POWER LINK / DEFAULT CLOSED</value>
+      <footprint>GBA_Mechanical:PinHeader_1x02_P2.54mm_D1.02mm</footprint>
+      <fields>
+        <field name="Manufacturer">Chang Enn</field>
+        <field name="MPN">PH-1X2SG</field>
+        <field name="LCSC"/>
+        <field name="Assembly">Hand solder</field>
+        <field name="Rating">3A; 2.54mm pitch; 0.64mm square pins</field>
+        <field name="Supplier">Akizuki</field>
+        <field name="Supplier Code">108593</field>
+        <field name="Footprint">GBA_Mechanical:PinHeader_1x02_P2.54mm_D1.02mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="JUMPER" description=""/>
+      <property name="Manufacturer" value="Chang Enn"/>
+      <property name="MPN" value="PH-1X2SG"/>
+      <property name="LCSC" value=""/>
+      <property name="Assembly" value="Hand solder"/>
+      <property name="Rating" value="3A; 2.54mm pitch; 0.64mm square pins"/>
+      <property name="Supplier" value="Akizuki"/>
+      <property name="Supplier Code" value="108593"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45c22a0a-40c9-5519-8a1a-6dd552f982d7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>642297ec-3a42-58ce-8b34-4e6b93cf0d71</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1879e2d9-4147-5ceb-991b-ebd1c44fb116</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb7c0125-233c-5cf5-ac41-d4f1c5ece807</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40d712c3-619d-58e0-a6a2-e46ecda880ab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4136de1-171c-581b-a790-363395148364</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>965e9f59-58ee-5ae6-a7a8-8cae5cb0714f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c901493-ee18-58e0-bc56-2f6786b24435</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5a14956-eb81-5da5-9c3c-f4d06f00e9e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b9746e6-579a-530a-adf8-bc427c26ecb1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbdb45cc-cb48-5168-b9cb-c560a3c89263</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5de48294-4d05-536c-955b-2f6ead0b842c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bd7d3f8-8d8c-5f2f-b4ef-d2ea0aebbe0a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8134efc-7ef3-5bce-91ee-b0366d609d2a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75fc3024-a45e-5cf0-80b0-9cdc876b389c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcf70771-c0dc-5d32-b2e5-8bba64bfd112</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c5a2961-b0e0-5210-bab3-6275c8883d01</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7102f0c6-bf4a-571b-9710-7f621593839c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ee97d75-4d23-5e53-9244-d60ae11f746a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f089e736-a4d7-5075-bd86-1cb67fc520fb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>339972a6-20e3-5c65-8c60-0ff06b238551</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79807354-ab70-5002-afc3-f7e0680a4df0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>594be600-95ee-57f7-8fb8-5ecb72ec942d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f04b7f96-3fc5-5eb8-8a0e-5554e948c646</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F3300T5E</field>
+        <field name="LCSC">C17630</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17630</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F3300T5E"/>
+      <property name="LCSC" value="C17630"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17630"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2fb2afd-9776-5c64-9f27-a2ebe428d51f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F1000T5E</field>
+        <field name="LCSC">C17408</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17408</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F1000T5E"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17408"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1679cf6d-6378-53c6-a478-0fc29630e8b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R26">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F1000T5E</field>
+        <field name="LCSC">C17408</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17408</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F1000T5E"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17408"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21f86a67-92bc-5bd2-a03e-1cfa2e0d8aa8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R27">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F1000T5E</field>
+        <field name="LCSC">C17408</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17408</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F1000T5E"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17408"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddbe2692-6534-5596-bb9d-abd046f91f53</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R28">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F1000T5E</field>
+        <field name="LCSC">C17408</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17408</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F1000T5E"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17408"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57c00a79-79fa-5ec0-b3b0-70aa83bccf18</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F1002T5E</field>
+        <field name="LCSC">C17414</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17414</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F1002T5E"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17414"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0040701-bd71-5647-8d72-52c4e10e64f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F1002T5E</field>
+        <field name="LCSC">C17414</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17414</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F1002T5E"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17414"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f23adc7-380b-59eb-be47-e956225f26a0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F1002T5E</field>
+        <field name="LCSC">C17414</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17414</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F1002T5E"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17414"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2992340f-ed85-542f-b54a-66cfb40b4948</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F1002T5E</field>
+        <field name="LCSC">C17414</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17414</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F1002T5E"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17414"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a47b0897-d6a4-5be7-9162-e0179a3bf017</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>10k / PHI pulldown</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">UNI-ROYAL</field>
+        <field name="MPN">0805W8F1002T5E</field>
+        <field name="LCSC">C17414</field>
+        <field name="Assembly">Basic</field>
+        <field name="Rating">125mW; 150V; +/-1%; +/-100ppm/C</field>
+        <field name="Supplier">JLCPCB</field>
+        <field name="Supplier Code">C17414</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="R" description=""/>
+      <property name="Manufacturer" value="UNI-ROYAL"/>
+      <property name="MPN" value="0805W8F1002T5E"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Assembly" value="Basic"/>
+      <property name="Rating" value="125mW; 150V; +/-1%; +/-100ppm/C"/>
+      <property name="Supplier" value="JLCPCB"/>
+      <property name="Supplier Code" value="C17414"/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a0bb386-4aeb-54ee-9c43-1eede94fb91b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>3V3</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2246de5-3eb9-5240-9869-33c85e03a84d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>GND</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a263768a-cecb-5b44-8047-b75973f94730</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>nCS</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2574ab32-a12a-59b6-a36c-502261699be3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>nRD</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a28b8522-a097-519b-bfd5-860720f5e104</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP5">
+      <value>nWR</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e84e96a-d985-5c5b-8a81-354627942a74</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP6">
+      <value>nCS2</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf78cdbe-e6ed-5d28-89db-ecc95328cb4a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP7">
+      <value>AD0</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91c7255c-e173-5656-90e0-22838b9d2dc6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP8">
+      <value>AD15</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5164921e-8c04-573c-b444-8c7f70f84f88</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP9">
+      <value>A16_D0</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05270232-e3ef-5ce6-a459-6372deb9c376</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP10">
+      <value>A23_D7</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e75c3ec-a1cf-56a8-86f3-c8b956f407fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP11">
+      <value>PHI</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46893078-6b73-5356-b767-89594704b65e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP12">
+      <value>nREQ</value>
+      <footprint>GBA_Mechanical:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Footprint">GBA_Mechanical:TestPoint_Pad_D2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="GBA" part="TP" description=""/>
+      <property name="Sheetname" value="gba_dumper"/>
+      <property name="Sheetfile" value="gba_dumper.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8236d0a3-2e6c-5988-b359-dc9a711ca774</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="GBA" part="C">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GBA" part="GBA_SLOT">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">GBA_SLOT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="passive"/>
+        <pin num="2" name="PHI" type="passive"/>
+        <pin num="3" name="nWR" type="passive"/>
+        <pin num="4" name="nRD" type="passive"/>
+        <pin num="5" name="nCS" type="passive"/>
+        <pin num="6" name="AD0" type="passive"/>
+        <pin num="7" name="AD1" type="passive"/>
+        <pin num="8" name="AD2" type="passive"/>
+        <pin num="9" name="AD3" type="passive"/>
+        <pin num="10" name="AD4" type="passive"/>
+        <pin num="11" name="AD5" type="passive"/>
+        <pin num="12" name="AD6" type="passive"/>
+        <pin num="13" name="AD7" type="passive"/>
+        <pin num="14" name="AD8" type="passive"/>
+        <pin num="15" name="AD9" type="passive"/>
+        <pin num="16" name="AD10" type="passive"/>
+        <pin num="17" name="AD11" type="passive"/>
+        <pin num="18" name="AD12" type="passive"/>
+        <pin num="19" name="AD13" type="passive"/>
+        <pin num="20" name="AD14" type="passive"/>
+        <pin num="21" name="AD15" type="passive"/>
+        <pin num="22" name="A16_D0" type="passive"/>
+        <pin num="23" name="A17_D1" type="passive"/>
+        <pin num="24" name="A18_D2" type="passive"/>
+        <pin num="25" name="A19_D3" type="passive"/>
+        <pin num="26" name="A20_D4" type="passive"/>
+        <pin num="27" name="A21_D5" type="passive"/>
+        <pin num="28" name="A22_D6" type="passive"/>
+        <pin num="29" name="A23_D7" type="passive"/>
+        <pin num="30" name="nCS2" type="passive"/>
+        <pin num="31" name="nREQ" type="passive"/>
+        <pin num="32" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GBA" part="JUMPER">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">JUMPER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GBA" part="R">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GBA" part="TP">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GBA" part="WEACT_LEFT">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">WEACT_LEFT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="passive"/>
+        <pin num="2" name="3V3" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="GPIO4" type="passive"/>
+        <pin num="5" name="GPIO5" type="passive"/>
+        <pin num="6" name="GPIO6" type="passive"/>
+        <pin num="7" name="GPIO7" type="passive"/>
+        <pin num="8" name="GPIO15" type="passive"/>
+        <pin num="9" name="GPIO16" type="passive"/>
+        <pin num="10" name="GPIO17" type="passive"/>
+        <pin num="11" name="GPIO18" type="passive"/>
+        <pin num="12" name="GPIO8" type="passive"/>
+        <pin num="13" name="GPIO3" type="passive"/>
+        <pin num="14" name="GPIO46" type="passive"/>
+        <pin num="15" name="GPIO9" type="passive"/>
+        <pin num="16" name="GPIO10" type="passive"/>
+        <pin num="17" name="GPIO11" type="passive"/>
+        <pin num="18" name="GPIO12" type="passive"/>
+        <pin num="19" name="GPIO13" type="passive"/>
+        <pin num="20" name="GPIO14" type="passive"/>
+        <pin num="21" name="5V" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GBA" part="WEACT_RIGHT">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">WEACT_RIGHT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="GPIO43" type="passive"/>
+        <pin num="3" name="GPIO44" type="passive"/>
+        <pin num="4" name="GPIO1" type="passive"/>
+        <pin num="5" name="GPIO2" type="passive"/>
+        <pin num="6" name="GPIO42" type="passive"/>
+        <pin num="7" name="GPIO41" type="passive"/>
+        <pin num="8" name="GPIO40" type="passive"/>
+        <pin num="9" name="GPIO39" type="passive"/>
+        <pin num="10" name="GPIO38" type="passive"/>
+        <pin num="11" name="GPIO37" type="passive"/>
+        <pin num="12" name="GPIO36" type="passive"/>
+        <pin num="13" name="GPIO35" type="passive"/>
+        <pin num="14" name="GPIO0" type="passive"/>
+        <pin num="15" name="GPIO45" type="passive"/>
+        <pin num="16" name="GPIO48" type="passive"/>
+        <pin num="17" name="GPIO47" type="passive"/>
+        <pin num="18" name="GPIO21" type="passive"/>
+        <pin num="19" name="GPIO20" type="passive"/>
+        <pin num="20" name="GPIO19" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="GBA">
+      <uri>${KIPRJMOD}/lib/GBA.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BOARD_3V3" class="POWER_3V3">
+      <node ref="J1" pin="1" pinfunction="3V3_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="3V3_2" pintype="passive"/>
+      <node ref="JP2" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/CART_3V3" class="POWER_3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="3V3_1" pintype="passive"/>
+      <node ref="JP2" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/CART_A16_D0" class="GBA_SIGNAL">
+      <node ref="J3" pin="22" pinfunction="A16_D0_22" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="TP9" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/CART_A17_D1" class="GBA_SIGNAL">
+      <node ref="J3" pin="23" pinfunction="A17_D1_23" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/CART_A18_D2" class="GBA_SIGNAL">
+      <node ref="J3" pin="24" pinfunction="A18_D2_24" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/CART_A19_D3" class="GBA_SIGNAL">
+      <node ref="J3" pin="25" pinfunction="A19_D3_25" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/CART_A20_D4" class="GBA_SIGNAL">
+      <node ref="J3" pin="26" pinfunction="A20_D4_26" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/CART_A21_D5" class="GBA_SIGNAL">
+      <node ref="J3" pin="27" pinfunction="A21_D5_27" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/CART_A22_D6" class="GBA_SIGNAL">
+      <node ref="J3" pin="28" pinfunction="A22_D6_28" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/CART_A23_D7" class="GBA_SIGNAL">
+      <node ref="J3" pin="29" pinfunction="A23_D7_29" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="TP10" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/CART_AD0" class="GBA_SIGNAL">
+      <node ref="J3" pin="6" pinfunction="AD0_6" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="TP7" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/CART_AD1" class="GBA_SIGNAL">
+      <node ref="J3" pin="7" pinfunction="AD1_7" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/CART_AD2" class="GBA_SIGNAL">
+      <node ref="J3" pin="8" pinfunction="AD2_8" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/CART_AD3" class="GBA_SIGNAL">
+      <node ref="J3" pin="9" pinfunction="AD3_9" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="/CART_AD4" class="GBA_SIGNAL">
+      <node ref="J3" pin="10" pinfunction="AD4_10" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/CART_AD5" class="GBA_SIGNAL">
+      <node ref="J3" pin="11" pinfunction="AD5_11" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/CART_AD6" class="GBA_SIGNAL">
+      <node ref="J3" pin="12" pinfunction="AD6_12" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/CART_AD7" class="GBA_SIGNAL">
+      <node ref="J3" pin="13" pinfunction="AD7_13" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/CART_AD8" class="GBA_SIGNAL">
+      <node ref="J3" pin="14" pinfunction="AD8_14" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="/CART_AD9" class="GBA_SIGNAL">
+      <node ref="J3" pin="15" pinfunction="AD9_15" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/CART_AD10" class="GBA_SIGNAL">
+      <node ref="J3" pin="16" pinfunction="AD10_16" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/CART_AD11" class="GBA_SIGNAL">
+      <node ref="J3" pin="17" pinfunction="AD11_17" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="/CART_AD12" class="GBA_SIGNAL">
+      <node ref="J3" pin="18" pinfunction="AD12_18" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="/CART_AD13" class="GBA_SIGNAL">
+      <node ref="J3" pin="19" pinfunction="AD13_19" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/CART_AD14" class="GBA_SIGNAL">
+      <node ref="J3" pin="20" pinfunction="AD14_20" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/CART_AD15" class="GBA_SIGNAL">
+      <node ref="J3" pin="21" pinfunction="AD15_21" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="TP8" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="/CART_PHI" class="GBA_SIGNAL">
+      <node ref="J3" pin="2" pinfunction="PHI_2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="TP11" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="/CART_nCS" class="GBA_SIGNAL">
+      <node ref="J3" pin="5" pinfunction="nCS_5" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="/CART_nCS2" class="GBA_SIGNAL">
+      <node ref="J3" pin="30" pinfunction="nCS2_30" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="TP6" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="/CART_nRD" class="GBA_SIGNAL">
+      <node ref="J3" pin="4" pinfunction="nRD_4" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="/CART_nREQ" class="GBA_SIGNAL">
+      <node ref="J3" pin="31" pinfunction="nREQ_31" pintype="passive"/>
+      <node ref="TP12" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="/CART_nWR" class="GBA_SIGNAL">
+      <node ref="J3" pin="3" pinfunction="nWR_3" pintype="passive"/>
+      <node ref="JP1" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="/GND" class="POWER_3V3">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="22" pinfunction="GND_22" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="GND_21" pintype="passive"/>
+      <node ref="J2" pin="22" pinfunction="GND_22" pintype="passive"/>
+      <node ref="J3" pin="32" pinfunction="GND_32" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="/MCU_A16_D0" class="GBA_SIGNAL">
+      <node ref="J2" pin="4" pinfunction="GPIO1_4" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/MCU_A17_D1" class="GBA_SIGNAL">
+      <node ref="J2" pin="13" pinfunction="GPIO35_13" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/MCU_A18_D2" class="GBA_SIGNAL">
+      <node ref="J2" pin="12" pinfunction="GPIO36_12" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="/MCU_A19_D3" class="GBA_SIGNAL">
+      <node ref="J2" pin="10" pinfunction="GPIO38_10" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="/MCU_A20_D4" class="GBA_SIGNAL">
+      <node ref="J2" pin="9" pinfunction="GPIO39_9" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="/MCU_A21_D5" class="GBA_SIGNAL">
+      <node ref="J2" pin="8" pinfunction="GPIO40_8" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="/MCU_A22_D6" class="GBA_SIGNAL">
+      <node ref="J2" pin="7" pinfunction="GPIO41_7" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="/MCU_A23_D7" class="GBA_SIGNAL">
+      <node ref="J2" pin="6" pinfunction="GPIO42_6" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="/MCU_AD0" class="GBA_SIGNAL">
+      <node ref="J1" pin="4" pinfunction="GPIO4_4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="/MCU_AD1" class="GBA_SIGNAL">
+      <node ref="J1" pin="5" pinfunction="GPIO5_5" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="/MCU_AD2" class="GBA_SIGNAL">
+      <node ref="J1" pin="6" pinfunction="GPIO6_6" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="/MCU_AD3" class="GBA_SIGNAL">
+      <node ref="J1" pin="7" pinfunction="GPIO7_7" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="/MCU_AD4" class="GBA_SIGNAL">
+      <node ref="J1" pin="12" pinfunction="GPIO8_12" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="/MCU_AD5" class="GBA_SIGNAL">
+      <node ref="J1" pin="15" pinfunction="GPIO9_15" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="/MCU_AD6" class="GBA_SIGNAL">
+      <node ref="J1" pin="16" pinfunction="GPIO10_16" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="/MCU_AD7" class="GBA_SIGNAL">
+      <node ref="J1" pin="17" pinfunction="GPIO11_17" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="/MCU_AD8" class="GBA_SIGNAL">
+      <node ref="J1" pin="18" pinfunction="GPIO12_18" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="/MCU_AD9" class="GBA_SIGNAL">
+      <node ref="J1" pin="19" pinfunction="GPIO13_19" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="/MCU_AD10" class="GBA_SIGNAL">
+      <node ref="J1" pin="20" pinfunction="GPIO14_20" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="/MCU_AD11" class="GBA_SIGNAL">
+      <node ref="J1" pin="8" pinfunction="GPIO15_8" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="/MCU_AD12" class="GBA_SIGNAL">
+      <node ref="J1" pin="9" pinfunction="GPIO16_9" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="/MCU_AD13" class="GBA_SIGNAL">
+      <node ref="J1" pin="10" pinfunction="GPIO17_10" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="/MCU_AD14" class="GBA_SIGNAL">
+      <node ref="J1" pin="11" pinfunction="GPIO18_11" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="/MCU_AD15" class="GBA_SIGNAL">
+      <node ref="J2" pin="18" pinfunction="GPIO21_18" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="/MCU_nCS" class="GBA_SIGNAL">
+      <node ref="J2" pin="17" pinfunction="GPIO47_17" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="/MCU_nCS2" class="GBA_SIGNAL">
+      <node ref="J1" pin="13" pinfunction="GPIO3_13" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="/MCU_nRD" class="GBA_SIGNAL">
+      <node ref="J2" pin="5" pinfunction="GPIO2_5" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="/MCU_nWR" class="GBA_SIGNAL">
+      <node ref="J2" pin="11" pinfunction="GPIO37_11" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="/WR_LINK" class="GBA_SIGNAL">
+      <node ref="JP1" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(J1-5V-Pad21)" class="Default">
+      <node ref="J1" pin="21" pinfunction="5V_21" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J1-EN-Pad3)" class="Default">
+      <node ref="J1" pin="3" pinfunction="EN_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J1-GPIO46-Pad14)" class="Default">
+      <node ref="J1" pin="14" pinfunction="GPIO46_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J2-GPIO0-Pad14)" class="Default">
+      <node ref="J2" pin="14" pinfunction="GPIO0_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J2-GPIO19-Pad20)" class="Default">
+      <node ref="J2" pin="20" pinfunction="GPIO19_20" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J2-GPIO20-Pad19)" class="Default">
+      <node ref="J2" pin="19" pinfunction="GPIO20_19" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J2-GPIO43-Pad2)" class="Default">
+      <node ref="J2" pin="2" pinfunction="GPIO43_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J2-GPIO44-Pad3)" class="Default">
+      <node ref="J2" pin="3" pinfunction="GPIO44_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J2-GPIO45-Pad15)" class="Default">
+      <node ref="J2" pin="15" pinfunction="GPIO45_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J2-GPIO48-Pad16)" class="Default">
+      <node ref="J2" pin="16" pinfunction="GPIO48_16" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

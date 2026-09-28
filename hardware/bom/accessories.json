@@ -1,0 +1,22 @@
+[
+  {
+    "usage": "Carrier feet: four 14mm spacers and four screws; four screws spare",
+    "mpn": "M3 plastic screw 7mm + spacer 14mm set",
+    "supplier": "Akizuki",
+    "supplier_code": "101861",
+    "quantity": 1,
+    "pack_quantity": "4 spacers + 8 screws",
+    "source": "https://akizukidenshi.com/catalog/g/g101861/",
+    "status": "SELECTED_LAYOUT_PENDING"
+  },
+  {
+    "usage": "MCU daughterboard",
+    "mpn": "WeAct ESP32S3-A ESP32-S3-WROOM-1-N16R2",
+    "supplier": "AliExpress / user ordered",
+    "supplier_code": "N/A",
+    "quantity": 1,
+    "pack_quantity": 1,
+    "source": "https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB",
+    "status": "ORDERED_USER_20260928_NOT_BENCH_VERIFIED"
+  }
+]

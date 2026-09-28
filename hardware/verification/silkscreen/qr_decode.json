@@ -1,0 +1,8 @@
+{
+  "decoder": "macOS Vision VNDetectBarcodesRequest, CPU",
+  "input": "output/pcb/final_review/qr_decode_preview.png",
+  "input_sha256": "e51ff2ce59ed0875d61a3e042cb5a4e8e9912f74fc20ae162a18b2344e60c08f",
+  "decoded_url": "https://github.com/otitbridge/gba-dumper-esp32-s3",
+  "match": true,
+  "physical_board_verified": false
+}

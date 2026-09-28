@@ -1,0 +1,24 @@
+{
+  "parser": "Gerbonara 1.6.3",
+  "source_sha256": "a18091a04750ae3a67b31429609a2615a7e4c5f5826a8896f3b85389df951f9a",
+  "copper_layers": 4,
+  "outline_mm": [
+    100,
+    100
+  ],
+  "drill_coordinate_tolerance_mm": 0.000501,
+  "drill_objects": {
+    "PTH": 142,
+    "NPTH": 6
+  },
+  "npth_detail": "4 x 3.2mm round mounting holes + 2 x 1.6mm by 4.6mm slots",
+  "top_paste_apertures": 70,
+  "bottom_paste_apertures": 0,
+  "cpl_components": 35,
+  "bom_part_numbers": 5,
+  "all_coordinates_drills_centroids_matched": true,
+  "manufacturing_approved": false,
+  "parser_notes": [
+    "Gerbonara warns KiCad G90 appears after header; decimal-mm absolute coordinates and all hole/slot geometry were independently matched."
+  ]
+}

@@ -1,0 +1,27 @@
+(version 1)
+# Project margins, not JLCPCB absolute manufacturing limits. Units: mm.
+(rule "V1 through vias only"
+  (constraint disallow micro_via blind_via buried_via))
+(rule "V1 PTH annular ring"
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
+  (constraint annular_width (min 0.20mm)))
+(rule "V1 NPTH minimum diameter"
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical'")
+  (constraint hole_size (min 0.50mm)))
+(rule "V1 NPTH slot minimum width"
+  (condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && A.Hole_Size_X != A.Hole_Size_Y")
+  (constraint hole_size (min 1.0mm)))
+(rule "V1 no via in SMD pad"
+  (condition "A.Type == 'Via' && B.Type == 'Pad' && B.Pad_Type == 'SMD'")
+  (constraint physical_hole_clearance (min 0.20mm)))
+(rule "V1 top side assembly"
+  (layer B.Cu)
+  (constraint disallow footprint))
+# Minimum width is enforced; netclass values are routing defaults, not DRC minima.
+(rule "V1 power minimum track width"
+  (condition "A.Type == 'Track' && (A.NetName == '/BOARD_3V3' || A.NetName == '/CART_3V3' || A.NetName == '/GND')")
+  (constraint track_width (min 0.50mm) (opt 0.80mm)))
+# Preserve the continuous ground reference layer against future signal routing.
+(rule "V1 In1 ground plane only"
+  (layer In1.Cu)
+  (constraint disallow track))

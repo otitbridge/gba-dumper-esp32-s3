@@ -1,0 +1,8 @@
+{
+  "decoder": "macOS Vision VNDetectBarcodesRequest",
+  "input": "gerber_silk_qr.png",
+  "sha256": "e815999e1df7ecbf162fce001e246d422fd8e53dc609b3c00f7013adda7b1106",
+  "decoded_url": "https://github.com/otitbridge/gba-dumper-esp32-s3",
+  "matches_expected": true,
+  "physical_print_verified": false
+}

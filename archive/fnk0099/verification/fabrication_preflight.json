@@ -1,0 +1,15 @@
+{
+  "cad_drc_violations": 0,
+  "unconnected": 0,
+  "schematic_parity_issues": 0,
+  "pcba_parts": 35,
+  "pcba_part_numbers": 5,
+  "pcba_side": "Top",
+  "manufacturing_approved": false,
+  "outstanding": [
+    "Gate 1-3 remaining physical/electrical checks",
+    "Native USB cap retention and cartridge handling checks",
+    "Economic PCBA tooling holes / rails / fiducial CAM review",
+    "Gerber / drill / CPL export and independent output inspection"
+  ]
+}

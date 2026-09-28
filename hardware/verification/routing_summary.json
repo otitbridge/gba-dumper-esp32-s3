@@ -1,0 +1,36 @@
+{
+  "milestone": "silkscreen_complete_before_manufacturing_export",
+  "date": "2026-09-28",
+  "drc_violations": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "layout_and_silk_unchanged": false,
+  "checks": [
+    "pinmap/BOM/ERC",
+    "C++17 pin definition compile",
+    "placement",
+    "manufacturing rules",
+    "routing/ground plane",
+    "comparison source hashes and T-junction/via test",
+    "silkscreen-only difference and text dimensions"
+  ],
+  "counts": {
+    "F.Cu": 228,
+    "through_vias": 62,
+    "In2.Cu": 297,
+    "B.Cu": 45
+  },
+  "track_length_mm": 2901.6186414037757,
+  "ground_zone": [
+    {
+      "layer": "In1.Cu",
+      "net": "/GND",
+      "area_mm2": 8936.573400845014,
+      "islands": 1
+    }
+  ],
+  "pcb_sha256": "a18091a04750ae3a67b31429609a2615a7e4c5f5826a8896f3b85389df951f9a",
+  "manufacturing_approved": false,
+  "component_placement_and_copper_unchanged": true,
+  "silkscreen_finalized": true
+}

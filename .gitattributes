@@ -1,0 +1,2 @@
+# Preserve vendor PDFs byte-for-byte; do not diff or normalize their internal streams.
+*.pdf binary

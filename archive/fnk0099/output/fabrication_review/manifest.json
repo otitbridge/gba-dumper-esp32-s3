@@ -1,0 +1,32 @@
+{
+  "status": "REVIEW_ONLY_NOT_APPROVED_FOR_MANUFACTURE",
+  "source_commit": "e7eb536f58ec7ecab5d9bfd24159618c4914db95",
+  "source_board_sha256": "67fbfd5f52dbe86d41ab243da7a34f137df0bb02f45e8722ef2f7b3fd731a391",
+  "files": {
+    "README.md": "cf5270a25fadd833c5486accded31a4a3896b596dd9bd991c77a06899aa706d1",
+    "assembly/jlcpcb_bom.csv": "3ec5e5a2112671becd3fc8414ac3f2122deff9568c8c29a013459e521c80eb78",
+    "assembly/jlcpcb_cpl.csv": "7d916e7b5b3035920f8904f3373b7520b6fe002ad517ac8acc8a2bccbc5a75c5",
+    "gba_dumper_gerbers_REVIEW_ONLY.zip": "bdc251580a5ea169209944886f725938d3a3f972b983b4ef5fc785e16cf4ffe0",
+    "gerbers/gba_dumper-B_Cu.gbl": "481c7ec9f5ccc7775b743a95d9f7535be321c7b54d8acba0517580c6cf82db28",
+    "gerbers/gba_dumper-B_Mask.gbs": "9825d801c7a10151017848637aa57536ca9bbe4a1b4a800b1ed7f9bc7406d363",
+    "gerbers/gba_dumper-B_Paste.gbp": "d6e77301328ffd47987e1a6b74aa71bbff9c87ea7c20df35aed93ff3bd1947b2",
+    "gerbers/gba_dumper-B_Silkscreen.gbo": "6bb6adf3e1ed4fc7b4446c7a2355e560fb1d33553eadd85650d2c03aecfeb8b0",
+    "gerbers/gba_dumper-Edge_Cuts.gm1": "05e4a08edb036531698a02e07f83c4be5782051923ed97bdbeb89075a7952481",
+    "gerbers/gba_dumper-F_Cu.gtl": "dc1375d41cb9496c1e2f5cce0c754c5abf662f58a5d4763fc419ed458cf125a7",
+    "gerbers/gba_dumper-F_Mask.gts": "f388d4d785fdc575dd2a4a4dfc96eed10fc2b2aa8ab0aeb6ce6865e36b9eef95",
+    "gerbers/gba_dumper-F_Paste.gtp": "b65b74d05258468edaf07959373fc8df948c7edb996c4d2e255043759842c8ca",
+    "gerbers/gba_dumper-F_Silkscreen.gto": "48a8c4a8f54805eac0d5d8af812bf00d3eb35fdc04b69f37f57266872bd682d0",
+    "gerbers/gba_dumper-In1_Cu.g1": "723b76c2ba88473e8577469471124e18fea51a0e94dec5a92d74274c36ba9b2b",
+    "gerbers/gba_dumper-In2_Cu.g2": "b4bfd0b32a1031e0004274787a505fca6f7aa7f28044eb2e88ddc055b8843362",
+    "gerbers/gba_dumper-NPTH.drl": "063911f9f45006615b35996cfc757bb56bb430a3fa769cfddddd5db78e4fe246",
+    "gerbers/gba_dumper-PTH.drl": "38b26b175b423a5cbd9a2962ebbfa98dc26dfaee137830dadb2886cb7300f863",
+    "gerbers/gba_dumper-job.gbrjob": "ef43447f4e0486d466156006d744c411f325f88439ded90cedea44f80eb0c206",
+    "review/expected_from_pcb.json": "116a33b154602e8cfbdd3c568b8877cf8ca1b43c47902e0e4ae7fba1faf975b6",
+    "review/gerber_bottom.png": "d15646fb39bafe25d54242e03c71a96a9ff82b66105d8594347c2f93cea5117d",
+    "review/gerber_bottom.svg": "46554a7a3297a11f87b13988b856058a2d0ad2136b5f5170e7fb170744ce0b9e",
+    "review/gerber_top.png": "126fc55bdfdf2369cab6745961fbe44342cd7f5becdd6ae4702df40fcefe194e",
+    "review/gerber_top.svg": "155f70fab8c05515a8e3482fc82b38c558926f12fddbeb40a8eb81a4cb906e52",
+    "review/kicad_positions.csv": "cc7b117bfcf7f478d50c777725835f0bde26a923db21d2d659222e6e19b60088",
+    "review/verification.json": "b6ae1e2a85cca587fc8e333fc65bcb0a358f35a3d76b50e3820c9bd954eb2ff0"
+  }
+}

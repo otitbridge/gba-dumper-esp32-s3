@@ -1,0 +1,58 @@
+2026-09-28 14:14:09.614 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-28 14:14:11.102 INFO   [51B452\FF984A] Loading board file 'route.dsn'...
+2026-09-28 14:14:11.160 WARN   Power-plane validation failed:
+- Dedicated power layer 'In1.Cu' has no conduction areas defined.
+
+Proper Definition and Best Practices for Power Planes:
+1. What Belongs on a Power Plane:
+   - Solid Copper Pours: A single, uninterrupted sheet of copper assigned to one voltage (e.g., +3.3V).
+   - Split Planes: Multiple distinct voltage zones divided by thin isolation gaps (puzzle pieces).
+   - Vias and Anti-Pads: Plated holes passing through the board, surrounded by circular voids (anti-pads) to prevent shorting.
+   - Thermal Reliefs: Spoked connections for vias or pins that connect to the plane, facilitating soldering.
+2. Why Signal Wires/Traces are Banned:
+   - Destroyed Return Paths: High-speed signals on adjacent layers couple to the solid plane below/above as return paths. Crossing a trace gap detours return currents, causing severe EMI and signal integrity issues.
+   - Compromised Power Delivery: Power planes should provide the lowest impedance path. Routing traces chops up the copper, creating bottleneck restrictions and voltage drops.
+
+2026-09-28 14:14:11.176 INFO   [51B452\FF984A] Job '51B452\FF984A' started at 2026-09-28T05:14:11.175952Z.
+2026-09-28 14:14:11.274 INFO   [51B452\FF984A] Fanout stage started on board 'bed0ed8da17fa11b40da1aa825a7106e' with 82 of 82 SMD pins needing fanout (0 already connected, 0 netless).
+2026-09-28 14:14:11.809 INFO   [51B452\FF984A] Fanout pass #1 on board 'a6a1d4b30a066c0b4f7463d1fcd46fba' completed in 0.52 seconds with 54 SMD pins fanouted, 24 not routed, 0 insert errors, +32 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-09-28 14:14:11.969 INFO   [51B452\FF984A] Fanout pass #2 on board '93e1d50607d0cdf9527312237ae2277f' completed in 0.15 seconds with 11 SMD pins fanouted, 26 not routed, 0 insert errors, +2 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-09-28 14:14:12.119 INFO   [51B452\FF984A] Fanout pass #3 on board 'b2bc2badedec5f489f5b5d68d0145d4a' completed in 0.14 seconds with 8 SMD pins fanouted, 24 not routed, 0 insert errors, +1 extra via (0 SMD pins still to check in pass, ripup costs=300).
+2026-09-28 14:14:12.221 INFO   [51B452\FF984A] Fanout pass #4 on board '65efdb7d9613591ee601e240b17acf53' completed in 0.10 seconds with 7 SMD pins fanouted, 24 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=400).
+2026-09-28 14:14:12.321 INFO   [51B452\FF984A] Fanout pass #5 on board 'b4d49c428600b7b97b631b1ff3a552b9' completed in 0.09 seconds with 7 SMD pins fanouted, 24 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=500).
+2026-09-28 14:14:12.457 INFO   [51B452\FF984A] Fanout pass #6 on board '540c1046b4b21fcfbc5a80bb54ae2905' completed in 0.13 seconds with 7 SMD pins fanouted, 24 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=600).
+2026-09-28 14:14:12.546 INFO   [51B452\FF984A] Fanout pass #7 on board '5d4a94fc33ca77cbd4742c4f885961b2' completed in 0.09 seconds with 7 SMD pins fanouted, 24 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=700).
+2026-09-28 14:14:12.546 INFO   Fanout stopped after 7 passes: no progress for 3 consecutive passes.
+2026-09-28 14:14:12.549 INFO   [51B452\FF984A] Fanout stage completed: started with 82 total SMD pins, completed in 1.27 seconds, escaped pins: 58/82 (70.7%), using 1.22 total CPU seconds, 6.83 GB total allocated, and 338.4 MB peak heap usage.
+2026-09-28 14:14:12.551 INFO   [51B452\FF984A] Auto-routing stage started on board '5d4a94fc33ca77cbd4742c4f885961b2' for 73 unrouted items.
+2026-09-28 14:14:15.879 INFO   [51B452\FF984A] Auto-routing pass #1 on board '5d4a94fc33ca77cbd4742c4f885961b2' was completed in 3.31 seconds with score 799.98 (18 unrouted and 0 violations), using 3.83 CPU seconds and the job allocated 27.29 GB of memory so far.
+2026-09-28 14:14:16.982 INFO   [51B452\FF984A] Auto-routing pass #2 on board '4a6bf4268b4f92f323d8341aeb750b08' was completed in 1.08 seconds with score 955.53 (4 unrouted and 0 violations), using 4.82 CPU seconds and the job allocated 38.60 GB of memory so far.
+2026-09-28 14:14:17.225 INFO   [51B452\FF984A] Auto-routing pass #3 on board 'c0ed233a479f147e70b120e64dccd757' was completed in 0.22 seconds with score 977.76 (2 unrouted and 0 violations), using 5.79 CPU seconds and the job allocated 49.27 GB of memory so far.
+2026-09-28 14:14:17.359 INFO   [51B452\FF984A] Auto-routing pass #4 on board 'e71bea68b69514084436781ffeb4b118' was completed in 0.11 seconds with score 988.87 (1 unrouted and 0 violations), using 5.79 CPU seconds and the job allocated 49.27 GB of memory so far.
+2026-09-28 14:14:17.459 INFO   [51B452\FF984A] Auto-routing pass #5 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.08 seconds with score 988.87 (1 unrouted and 0 violations), using 5.79 CPU seconds and the job allocated 49.27 GB of memory so far.
+2026-09-28 14:14:17.562 INFO   [51B452\FF984A] Auto-routing pass #6 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.09 seconds with score 988.87 (1 unrouted and 0 violations), using 5.79 CPU seconds and the job allocated 49.27 GB of memory so far.
+2026-09-28 14:14:17.652 INFO   [51B452\FF984A] Auto-routing pass #7 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.08 seconds with score 988.87 (1 unrouted and 0 violations), using 5.79 CPU seconds and the job allocated 49.27 GB of memory so far.
+2026-09-28 14:14:17.737 INFO   [51B452\FF984A] Auto-routing pass #8 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.07 seconds with score 988.87 (1 unrouted and 0 violations), using 5.79 CPU seconds and the job allocated 49.27 GB of memory so far.
+2026-09-28 14:14:17.837 INFO   [51B452\FF984A] Auto-routing pass #9 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.09 seconds with score 988.87 (1 unrouted and 0 violations), using 5.79 CPU seconds and the job allocated 49.27 GB of memory so far.
+2026-09-28 14:14:17.927 INFO   [51B452\FF984A] Auto-routing pass #10 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.08 seconds with score 988.87 (1 unrouted and 0 violations), using 5.79 CPU seconds and the job allocated 49.27 GB of memory so far.
+2026-09-28 14:14:18.012 INFO   [51B452\FF984A] Auto-routing pass #11 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.07 seconds with score 988.87 (1 unrouted and 0 violations), using 5.79 CPU seconds and the job allocated 49.27 GB of memory so far.
+2026-09-28 14:14:18.115 INFO   [51B452\FF984A] Auto-routing pass #12 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.08 seconds with score 988.87 (1 unrouted and 0 violations), using 5.79 CPU seconds and the job allocated 49.27 GB of memory so far.
+2026-09-28 14:14:18.207 INFO   [51B452\FF984A] Auto-routing pass #13 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.08 seconds with score 988.87 (1 unrouted and 0 violations), using 5.79 CPU seconds and the job allocated 49.27 GB of memory so far.
+2026-09-28 14:14:18.292 INFO   [51B452\FF984A] Auto-routing pass #14 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.07 seconds with score 988.87 (1 unrouted and 0 violations), using 6.78 CPU seconds and the job allocated 65.81 GB of memory so far.
+2026-09-28 14:14:18.382 INFO   [51B452\FF984A] Auto-routing pass #15 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.08 seconds with score 988.87 (1 unrouted and 0 violations), using 6.78 CPU seconds and the job allocated 65.81 GB of memory so far.
+2026-09-28 14:14:18.475 INFO   [51B452\FF984A] Auto-routing pass #16 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.08 seconds with score 988.87 (1 unrouted and 0 violations), using 6.78 CPU seconds and the job allocated 65.81 GB of memory so far.
+2026-09-28 14:14:18.561 INFO   [51B452\FF984A] Auto-routing pass #17 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.07 seconds with score 988.87 (1 unrouted and 0 violations), using 6.78 CPU seconds and the job allocated 65.81 GB of memory so far.
+2026-09-28 14:14:18.649 INFO   [51B452\FF984A] Auto-routing pass #18 on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' was completed in 0.08 seconds with score 988.87 (1 unrouted and 0 violations), using 6.78 CPU seconds and the job allocated 65.81 GB of memory so far.
+2026-09-28 14:14:18.654 INFO   [51B452\FF984A] The router's best score (988.87) has not improved by more than 0.5 points since pass #8. Stopping the auto-router after 18 passes (1 item still unconnected).
+The following connections could not be routed -- please review your design (e.g. check pad clearances, trace width rules, and available routing space):
+  Net '/GND' (1 unrouted connection):
+    - J3-32  ->  J2-1
+2026-09-28 14:14:18.673 INFO   [51B452\FF984A] Auto-routing stage completed: started with 90 unrouted nets, completed in 7.45 seconds, final score: 988.87 (1 unrouted and 0 violations), using 6.78 total CPU seconds, 65.81 GB total allocated, and 468.5 MB peak heap usage.
+2026-09-28 14:14:18.683 INFO   [51B452\FF984A] Optimization stage started on board 'b4ac3635b5d4bc0df0217c7c92afdfb2' with score 988.87 (1 unrouted and 0 violations).
+2026-09-28 14:14:19.370 INFO   [51B452\FF984A] Stopping optimization pass #1 early after 50 consecutive items could not be improved.
+2026-09-28 14:14:19.382 INFO   [51B452\FF984A] Optimizer pass #1 on board 'ca91b3c3e53a74f7e5ed1baa9b3313be' was completed in 0.67 seconds with the score of 988.87 (1 unrouted and 0 violations).
+2026-09-28 14:14:19.391 INFO   [51B452\FF984A] Stopping optimizer because the improvement in this pass (0.0000%) is below the threshold (1.00%).
+2026-09-28 14:14:19.401 INFO   [51B452\FF984A] Optimization stage completed: started with score 988.87 (1 unrouted and 0 violations), completed in 0.71 seconds, final score: 988.87 (1 unrouted and 0 violations), using 0.68 total CPU seconds, 18.32 GB total allocated, and 456.5 MB peak heap usage.
+2026-09-28 14:14:19.405 INFO   [51B452\FF984A] Job '51B452\FF984A' finished with state: COMPLETED (elapsed: 8.23 seconds, finished at UTC: 2026-09-28T05:14:19.405050Z).
+2026-09-28 14:14:19.445 INFO   Saving output file '/workspace/gba-dumper/tmp/weact-routing/route.ses' (SES)...
+2026-09-28 14:14:19.446 INFO   Successfully saved output file '/workspace/gba-dumper/tmp/weact-routing/route.ses' (38930 bytes).

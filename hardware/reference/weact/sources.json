@@ -1,0 +1,8 @@
+{
+  "retrieved": "2026-09-28",
+  "repository": "https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB",
+  "files_sha256": {
+    "ESP32_S3_A_Sch.pdf": "ad44dcae89c68d47c769958268a52bd499d6cb76730602efbe738c1fd79d63f7",
+    "ESP32S3-A_Board_Shape.pdf": "ebe2279a7e517a4636c306ecd3bfa0275f21eb26280d51043f262ebf6c86ca10"
+  }
+}

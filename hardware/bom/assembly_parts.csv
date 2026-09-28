@@ -1,0 +1,7 @@
+Usage,MPN,Supplier,Supplier Code,Quantity per board,Pack Quantity,Source,Status
+"JP1,JP2",PH-1X2SG,Akizuki,108593,2,10,https://akizukidenshi.com/catalog/g/g108593/,SELECTED_NOT_BENCH_VERIFIED
+JP1 cap supplied loose; JP2 cap installed,2228GG,Akizuki,103890,2,20,https://akizukidenshi.com/catalog/g/g103890/,SELECTED_NOT_BENCH_VERIFIED
+"J1/J2: two 40-way strips, one 22-way socket cut from each",FH2.54-40U1GF8.5-0.5,Akizuki,110073,2,1,https://akizukidenshi.com/catalog/g/g110073/,SELECTED_WEACT_MATING_PENDING
+J3,N/A - manufacturer part number not identified,AliExpress,1005005472303111,1,Listing variant not recorded,https://ja.aliexpress.com/item/1005005472303111.html,FOOTPRINT_APPROVED_USER_SUPPLIED_SOURCE
+Carrier feet: four 14mm spacers and four screws; four screws spare,M3 plastic screw 7mm + spacer 14mm set,Akizuki,101861,1,4 spacers + 8 screws,https://akizukidenshi.com/catalog/g/g101861/,SELECTED_LAYOUT_PENDING
+MCU daughterboard,WeAct ESP32S3-A ESP32-S3-WROOM-1-N16R2,AliExpress / user ordered,N/A,1,1,https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB,ORDERED_USER_20260928_NOT_BENCH_VERIFIED

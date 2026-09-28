@@ -1,0 +1,3816 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-27T21:02:41",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "gba_dumper.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_3V3] - TP1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 34.0
+                    },
+                    "uuid": "bb6e9f10-3506-4d4c-a912-5077951a979d"
+                },
+                {
+                    "description": "PTHパッド 2 [/CART_3V3] (JP2)",
+                    "pos": {
+                        "x": 13.0,
+                        "y": 40.54
+                    },
+                    "uuid": "82ccfaeb-d4f6-46b4-bc77-d8a6f4fba5e8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 2 [/CART_3V3] (JP2)",
+                    "pos": {
+                        "x": 13.0,
+                        "y": 40.54
+                    },
+                    "uuid": "82ccfaeb-d4f6-46b4-bc77-d8a6f4fba5e8"
+                },
+                {
+                    "description": "パッド 1 [/CART_3V3] - R29 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.0875,
+                        "y": 80.0
+                    },
+                    "uuid": "5965704e-37e1-4921-b7c1-f76a9d023bb1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_3V3] - R30 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.0875,
+                        "y": 84.0
+                    },
+                    "uuid": "6aff775b-e3f2-4ce6-a893-cdf18175010d"
+                },
+                {
+                    "description": "パッド 1 [/CART_3V3] - R29 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.0875,
+                        "y": 80.0
+                    },
+                    "uuid": "5965704e-37e1-4921-b7c1-f76a9d023bb1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_3V3] - R30 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.0875,
+                        "y": 84.0
+                    },
+                    "uuid": "6aff775b-e3f2-4ce6-a893-cdf18175010d"
+                },
+                {
+                    "description": "パッド 1 [/CART_3V3] - R31 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.0875,
+                        "y": 88.0
+                    },
+                    "uuid": "bb684335-a335-4513-97f6-bc7b1e454dea"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_3V3] - R31 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.0875,
+                        "y": 88.0
+                    },
+                    "uuid": "bb684335-a335-4513-97f6-bc7b1e454dea"
+                },
+                {
+                    "description": "パッド 1 [/CART_3V3] - R32 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.0875,
+                        "y": 92.0
+                    },
+                    "uuid": "42654d78-ab9b-4fc5-bdbe-85207d444901"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_3V3] - C1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 21.05,
+                        "y": 33.0
+                    },
+                    "uuid": "6dc8a64c-fbc9-4701-831c-1e8b89085307"
+                },
+                {
+                    "description": "パッド 1 [/CART_3V3] - C2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 27.05,
+                        "y": 33.0
+                    },
+                    "uuid": "790eb7f8-448d-4550-af43-c88baaeaff38"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_3V3] - C1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 21.05,
+                        "y": 33.0
+                    },
+                    "uuid": "6dc8a64c-fbc9-4701-831c-1e8b89085307"
+                },
+                {
+                    "description": "PTHパッド 2 [/CART_3V3] (JP2)",
+                    "pos": {
+                        "x": 13.0,
+                        "y": 40.54
+                    },
+                    "uuid": "82ccfaeb-d4f6-46b4-bc77-d8a6f4fba5e8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_3V3] - C2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 27.05,
+                        "y": 33.0
+                    },
+                    "uuid": "790eb7f8-448d-4550-af43-c88baaeaff38"
+                },
+                {
+                    "description": "PTHパッド 1 [/CART_3V3] (J3)",
+                    "pos": {
+                        "x": 28.0,
+                        "y": 27.0
+                    },
+                    "uuid": "2eb88dcb-deb0-4f1c-891e-faa545f29468"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_PHI] - R33 ( F.Cu 上)",
+                    "pos": {
+                        "x": 36.0875,
+                        "y": 33.0
+                    },
+                    "uuid": "f064d9e5-a352-4c3c-a26b-60dbb45728e8"
+                },
+                {
+                    "description": "PTHパッド 2 [/CART_PHI] (J3)",
+                    "pos": {
+                        "x": 29.5,
+                        "y": 25.5
+                    },
+                    "uuid": "010abd90-081d-43b1-9667-e9194ff0ce66"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_PHI] - TP11 ( F.Cu 上)",
+                    "pos": {
+                        "x": 37.0,
+                        "y": 39.0
+                    },
+                    "uuid": "40890b9e-567b-4e06-a685-aa4a77143109"
+                },
+                {
+                    "description": "パッド 1 [/CART_PHI] - R33 ( F.Cu 上)",
+                    "pos": {
+                        "x": 36.0875,
+                        "y": 33.0
+                    },
+                    "uuid": "f064d9e5-a352-4c3c-a26b-60dbb45728e8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_nWR] - TP5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 71.0
+                    },
+                    "uuid": "9c5d6c43-9a1d-4553-bb65-8a53518128fd"
+                },
+                {
+                    "description": "パッド 2 [/CART_nWR] - R31 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 88.0
+                    },
+                    "uuid": "2ab3bc32-0231-4dae-99a2-1287b8b99797"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_nWR] - R31 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 88.0
+                    },
+                    "uuid": "2ab3bc32-0231-4dae-99a2-1287b8b99797"
+                },
+                {
+                    "description": "PTHパッド 2 [/CART_nWR] (JP1)",
+                    "pos": {
+                        "x": 32.0,
+                        "y": 74.54
+                    },
+                    "uuid": "5c39bc83-ea23-486b-8143-3033db083da5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 2 [/CART_nWR] (JP1)",
+                    "pos": {
+                        "x": 32.0,
+                        "y": 74.54
+                    },
+                    "uuid": "5c39bc83-ea23-486b-8143-3033db083da5"
+                },
+                {
+                    "description": "PTHパッド 3 [/CART_nWR] (J3)",
+                    "pos": {
+                        "x": 31.0,
+                        "y": 27.0
+                    },
+                    "uuid": "0ecc4982-1820-4c22-85f3-170a5fe734f4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_nRD] - R26 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 66.0
+                    },
+                    "uuid": "8a07ad5d-81d9-42d7-ab5f-98d1d1fcd998"
+                },
+                {
+                    "description": "パッド 1 [/CART_nRD] - TP4 ( F.Cu 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 65.0
+                    },
+                    "uuid": "19987a80-a5af-4171-9518-11f5b533be82"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_nRD] - R26 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 66.0
+                    },
+                    "uuid": "8a07ad5d-81d9-42d7-ab5f-98d1d1fcd998"
+                },
+                {
+                    "description": "PTHパッド 4 [/CART_nRD] (J3)",
+                    "pos": {
+                        "x": 32.5,
+                        "y": 25.5
+                    },
+                    "uuid": "276a7bc6-5de4-4761-b82a-ec90b759a40b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_nRD] - R30 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 84.0
+                    },
+                    "uuid": "e72c8b0d-15c1-4439-afb4-a5f06448f05f"
+                },
+                {
+                    "description": "パッド 2 [/CART_nRD] - R26 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 66.0
+                    },
+                    "uuid": "8a07ad5d-81d9-42d7-ab5f-98d1d1fcd998"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_nCS] - R25 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 62.0
+                    },
+                    "uuid": "ec811a2f-f609-4974-8e44-4b6a3ab5efb8"
+                },
+                {
+                    "description": "パッド 1 [/CART_nCS] - TP3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 59.0
+                    },
+                    "uuid": "b6c9af1f-a68d-492c-980d-5e4e836c5fa7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_nCS] - R25 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 62.0
+                    },
+                    "uuid": "ec811a2f-f609-4974-8e44-4b6a3ab5efb8"
+                },
+                {
+                    "description": "PTHパッド 5 [/CART_nCS] (J3)",
+                    "pos": {
+                        "x": 34.0,
+                        "y": 27.0
+                    },
+                    "uuid": "02041760-78c0-4c60-9e81-fefca0dba007"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_nCS] - R29 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 80.0
+                    },
+                    "uuid": "ba9d1c96-3ece-4ee4-8394-99acc2575847"
+                },
+                {
+                    "description": "パッド 2 [/CART_nCS] - R25 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 62.0
+                    },
+                    "uuid": "ec811a2f-f609-4974-8e44-4b6a3ab5efb8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 6 [/CART_AD0] (J3)",
+                    "pos": {
+                        "x": 35.5,
+                        "y": 25.5
+                    },
+                    "uuid": "6c18bf6d-150f-4978-ab63-1b8e9a1503d3"
+                },
+                {
+                    "description": "パッド 1 [/CART_AD0] - TP7 ( F.Cu 上)",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 47.0
+                    },
+                    "uuid": "351791ae-8f6c-4e86-94dc-c1ea59476433"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_AD0] - TP7 ( F.Cu 上)",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 47.0
+                    },
+                    "uuid": "351791ae-8f6c-4e86-94dc-c1ea59476433"
+                },
+                {
+                    "description": "パッド 2 [/CART_AD0] - R1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 47.0
+                    },
+                    "uuid": "b282b6c8-4506-4991-901e-10b7c1f9efc3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 7 [/CART_AD1] (J3)",
+                    "pos": {
+                        "x": 37.0,
+                        "y": 27.0
+                    },
+                    "uuid": "755e90a0-305f-4b4f-923f-7968df6bb8b3"
+                },
+                {
+                    "description": "パッド 2 [/CART_AD1] - R2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 50.0
+                    },
+                    "uuid": "4b914580-b05b-4675-a2fa-836ab2d7a458"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 8 [/CART_AD2] (J3)",
+                    "pos": {
+                        "x": 38.5,
+                        "y": 25.5
+                    },
+                    "uuid": "dcc0bcf7-6194-4183-962e-5b76880ae55d"
+                },
+                {
+                    "description": "パッド 2 [/CART_AD2] - R3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 53.0
+                    },
+                    "uuid": "6d585fdb-5acd-4657-8596-a54f2e35e6a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 9 [/CART_AD3] (J3)",
+                    "pos": {
+                        "x": 40.0,
+                        "y": 27.0
+                    },
+                    "uuid": "c46b4572-9955-4332-8f3b-9b1ef158660b"
+                },
+                {
+                    "description": "パッド 2 [/CART_AD3] - R4 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 56.0
+                    },
+                    "uuid": "90ece31c-1903-43b1-9bdb-61f8bf272a8e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 10 [/CART_AD4] (J3)",
+                    "pos": {
+                        "x": 41.5,
+                        "y": 25.5
+                    },
+                    "uuid": "9491e89d-11ab-4d8c-8008-db79f98f3dbd"
+                },
+                {
+                    "description": "パッド 2 [/CART_AD4] - R5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 59.0
+                    },
+                    "uuid": "f3576cab-337f-4e24-ba31-8e263c421c89"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 11 [/CART_AD5] (J3)",
+                    "pos": {
+                        "x": 43.0,
+                        "y": 27.0
+                    },
+                    "uuid": "f9184a48-bbc3-45fd-b0ca-3dc7ca44b337"
+                },
+                {
+                    "description": "パッド 2 [/CART_AD5] - R6 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 62.0
+                    },
+                    "uuid": "160022dd-0697-4f64-a1c6-a08f8c99b491"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 12 [/CART_AD6] (J3)",
+                    "pos": {
+                        "x": 44.5,
+                        "y": 25.5
+                    },
+                    "uuid": "4adae8b9-38b4-4988-a92a-8a24b3c925f0"
+                },
+                {
+                    "description": "パッド 2 [/CART_AD6] - R7 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 65.0
+                    },
+                    "uuid": "98239bd1-634b-406b-97b4-660448c74c34"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 13 [/CART_AD7] (J3)",
+                    "pos": {
+                        "x": 46.0,
+                        "y": 27.0
+                    },
+                    "uuid": "a4cea0d4-27e8-49c5-bc8e-0b5a4a8cea4f"
+                },
+                {
+                    "description": "パッド 2 [/CART_AD7] - R8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 68.0
+                    },
+                    "uuid": "344173d4-8be9-4b97-80cb-a515d88f0f3f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_AD8] - R9 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 71.0
+                    },
+                    "uuid": "f14acdf6-8017-40b4-88f8-80dbd480845c"
+                },
+                {
+                    "description": "PTHパッド 14 [/CART_AD8] (J3)",
+                    "pos": {
+                        "x": 47.5,
+                        "y": 25.5
+                    },
+                    "uuid": "a76bc2ae-4831-440a-b765-46e196f2eae4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_AD9] - R10 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 74.0
+                    },
+                    "uuid": "26204af6-0a10-44e2-b22d-db3a7fb3c1f6"
+                },
+                {
+                    "description": "PTHパッド 15 [/CART_AD9] (J3)",
+                    "pos": {
+                        "x": 49.0,
+                        "y": 27.0
+                    },
+                    "uuid": "9f4b8d95-5976-448d-a4ad-b67d9c5cc1db"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_AD10] - R11 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 77.0
+                    },
+                    "uuid": "a4578e8e-be29-4578-b909-fad85522b7a0"
+                },
+                {
+                    "description": "PTHパッド 16 [/CART_AD10] (J3)",
+                    "pos": {
+                        "x": 50.5,
+                        "y": 25.5
+                    },
+                    "uuid": "7ee2fcd2-9509-47ba-9bcb-4fdbc5c5fe2d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_AD11] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 80.0
+                    },
+                    "uuid": "7398ed6a-25a9-429c-beb9-2557c71232bc"
+                },
+                {
+                    "description": "PTHパッド 17 [/CART_AD11] (J3)",
+                    "pos": {
+                        "x": 52.0,
+                        "y": 27.0
+                    },
+                    "uuid": "a8261145-f7fc-4b67-b570-08f062de8683"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_AD12] - R13 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 83.0
+                    },
+                    "uuid": "3fdf1743-540c-4a67-b958-d04e646a4e33"
+                },
+                {
+                    "description": "PTHパッド 18 [/CART_AD12] (J3)",
+                    "pos": {
+                        "x": 53.5,
+                        "y": 25.5
+                    },
+                    "uuid": "ac26b365-3019-4dfd-9f05-1fa654c011c6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_AD13] - R14 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 86.0
+                    },
+                    "uuid": "1463becb-5039-477a-b61a-a622108eb28a"
+                },
+                {
+                    "description": "PTHパッド 19 [/CART_AD13] (J3)",
+                    "pos": {
+                        "x": 55.0,
+                        "y": 27.0
+                    },
+                    "uuid": "10599aa5-7e58-495d-a1bd-951ff5add9ff"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_AD14] - R15 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 89.0
+                    },
+                    "uuid": "8fd757f0-5906-43be-a75c-e31d92463a01"
+                },
+                {
+                    "description": "PTHパッド 20 [/CART_AD14] (J3)",
+                    "pos": {
+                        "x": 56.5,
+                        "y": 25.5
+                    },
+                    "uuid": "1d93d166-ac16-48ac-819f-2f59e000930e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_AD15] - TP8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 92.0
+                    },
+                    "uuid": "17401252-3e22-43cc-aa00-ed96ab41d975"
+                },
+                {
+                    "description": "パッド 2 [/CART_AD15] - R16 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 92.0
+                    },
+                    "uuid": "f718510e-f660-4e95-b95e-c035578bdf68"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_AD15] - R16 ( F.Cu 上)",
+                    "pos": {
+                        "x": 46.9125,
+                        "y": 92.0
+                    },
+                    "uuid": "f718510e-f660-4e95-b95e-c035578bdf68"
+                },
+                {
+                    "description": "PTHパッド 21 [/CART_AD15] (J3)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 27.0
+                    },
+                    "uuid": "0d50ca13-3ee6-4c1d-9521-8e13168bad2d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_A16_D0] - TP9 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 38.0
+                    },
+                    "uuid": "5cae28f9-ff26-41b5-88cc-5286ee97f024"
+                },
+                {
+                    "description": "PTHパッド 22 [/CART_A16_D0] (J3)",
+                    "pos": {
+                        "x": 59.5,
+                        "y": 25.5
+                    },
+                    "uuid": "fd52e53a-bf17-4e47-bc70-4a5e3d639401"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_A16_D0] - R17 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.9125,
+                        "y": 49.0
+                    },
+                    "uuid": "9d708f21-6a64-42d2-9505-8a49c20be2ae"
+                },
+                {
+                    "description": "パッド 1 [/CART_A16_D0] - TP9 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 38.0
+                    },
+                    "uuid": "5cae28f9-ff26-41b5-88cc-5286ee97f024"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 23 [/CART_A17_D1] (J3)",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 27.0
+                    },
+                    "uuid": "30980a23-cbe9-4042-ad9e-fb3d3f6c369e"
+                },
+                {
+                    "description": "パッド 2 [/CART_A17_D1] - R18 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.9125,
+                        "y": 53.0
+                    },
+                    "uuid": "39709d84-289c-4213-8500-29beafc71f31"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 24 [/CART_A18_D2] (J3)",
+                    "pos": {
+                        "x": 62.5,
+                        "y": 25.5
+                    },
+                    "uuid": "399f003b-0860-4f13-a005-e88ac80b474f"
+                },
+                {
+                    "description": "パッド 2 [/CART_A18_D2] - R19 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.9125,
+                        "y": 57.0
+                    },
+                    "uuid": "cabfdf8a-7b61-426b-bc4f-88d653ddf128"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 25 [/CART_A19_D3] (J3)",
+                    "pos": {
+                        "x": 64.0,
+                        "y": 27.0
+                    },
+                    "uuid": "356959be-15e6-4119-a09f-2cb27c05ba28"
+                },
+                {
+                    "description": "パッド 2 [/CART_A19_D3] - R20 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.9125,
+                        "y": 61.0
+                    },
+                    "uuid": "f2fc18c3-4bc0-4e0f-b3e1-c25c67fba200"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 26 [/CART_A20_D4] (J3)",
+                    "pos": {
+                        "x": 65.5,
+                        "y": 25.5
+                    },
+                    "uuid": "01a2acca-e509-4a50-8989-c1b19d38bac5"
+                },
+                {
+                    "description": "パッド 2 [/CART_A20_D4] - R21 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.9125,
+                        "y": 65.0
+                    },
+                    "uuid": "a1fc3673-4035-4432-9f4c-b8e34a12d980"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 27 [/CART_A21_D5] (J3)",
+                    "pos": {
+                        "x": 67.0,
+                        "y": 27.0
+                    },
+                    "uuid": "6d8f38e8-6213-422f-92f0-67142ee1ed73"
+                },
+                {
+                    "description": "パッド 2 [/CART_A21_D5] - R22 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.9125,
+                        "y": 69.0
+                    },
+                    "uuid": "aa28d6aa-e307-4729-b392-daad6dfea68c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 28 [/CART_A22_D6] (J3)",
+                    "pos": {
+                        "x": 68.5,
+                        "y": 25.5
+                    },
+                    "uuid": "189ce8f0-07f1-4840-b339-a336f9c0b6f2"
+                },
+                {
+                    "description": "パッド 2 [/CART_A22_D6] - R23 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.9125,
+                        "y": 73.0
+                    },
+                    "uuid": "0429ad47-c138-453b-b792-08f6e6356baa"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_A23_D7] - TP10 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 83.0
+                    },
+                    "uuid": "8cb97ef2-0cc9-4fea-b585-14bf7100f506"
+                },
+                {
+                    "description": "パッド 2 [/CART_A23_D7] - R24 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.9125,
+                        "y": 77.0
+                    },
+                    "uuid": "d48c8e55-7c58-4f49-8154-32e3b61623e2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_A23_D7] - R24 ( F.Cu 上)",
+                    "pos": {
+                        "x": 94.9125,
+                        "y": 77.0
+                    },
+                    "uuid": "d48c8e55-7c58-4f49-8154-32e3b61623e2"
+                },
+                {
+                    "description": "PTHパッド 29 [/CART_A23_D7] (J3)",
+                    "pos": {
+                        "x": 70.0,
+                        "y": 27.0
+                    },
+                    "uuid": "3ee1f523-993e-4c65-851e-24ed30b0e58d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_nCS2] - R28 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 74.0
+                    },
+                    "uuid": "23942b4c-5238-4e39-b45c-6015d9bcb637"
+                },
+                {
+                    "description": "パッド 1 [/CART_nCS2] - TP6 ( F.Cu 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 77.0
+                    },
+                    "uuid": "cbecefad-150d-47df-a015-4b3d273cdf8b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_nCS2] - R28 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 74.0
+                    },
+                    "uuid": "23942b4c-5238-4e39-b45c-6015d9bcb637"
+                },
+                {
+                    "description": "PTHパッド 30 [/CART_nCS2] (J3)",
+                    "pos": {
+                        "x": 71.5,
+                        "y": 25.5
+                    },
+                    "uuid": "ed0daa0f-4d02-497c-bc2a-819a79c0333e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/CART_nCS2] - R32 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 92.0
+                    },
+                    "uuid": "4f321e45-4482-482f-a862-205e9b03893d"
+                },
+                {
+                    "description": "パッド 2 [/CART_nCS2] - R28 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 74.0
+                    },
+                    "uuid": "23942b4c-5238-4e39-b45c-6015d9bcb637"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/CART_nREQ] - TP12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 43.0,
+                        "y": 39.0
+                    },
+                    "uuid": "d9caa6c5-9618-4e9e-af96-e2b22c41af20"
+                },
+                {
+                    "description": "PTHパッド 31 [/CART_nREQ] (J3)",
+                    "pos": {
+                        "x": 73.0,
+                        "y": 27.0
+                    },
+                    "uuid": "e76c629e-234c-4275-b53a-818facfdeafd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 22.95,
+                        "y": 33.0
+                    },
+                    "uuid": "a62d0cba-4eb6-4016-8682-013eabe05691"
+                },
+                {
+                    "description": "パッド 2 [/GND] - C2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 28.95,
+                        "y": 33.0
+                    },
+                    "uuid": "f622244a-16c9-4acc-ac40-2dc83c0c0bc5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - C1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 22.95,
+                        "y": 33.0
+                    },
+                    "uuid": "a62d0cba-4eb6-4016-8682-013eabe05691"
+                },
+                {
+                    "description": "パッド 1 [/GND] - TP2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 48.0
+                    },
+                    "uuid": "53ef1c0b-fc9b-4737-a419-034281e99e2f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/GND] - R33 ( F.Cu 上)",
+                    "pos": {
+                        "x": 37.9125,
+                        "y": 33.0
+                    },
+                    "uuid": "2b3dfedc-fcca-4869-9bde-a4a0924100e3"
+                },
+                {
+                    "description": "パッド 2 [/GND] - C2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 28.95,
+                        "y": 33.0
+                    },
+                    "uuid": "f622244a-16c9-4acc-ac40-2dc83c0c0bc5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 32 [/GND] (J3)",
+                    "pos": {
+                        "x": 74.5,
+                        "y": 24.0
+                    },
+                    "uuid": "79fef031-6af3-4c5a-a20d-64c3637c9fc0"
+                },
+                {
+                    "description": "パッド 2 [/GND] - R33 ( F.Cu 上)",
+                    "pos": {
+                        "x": 37.9125,
+                        "y": 33.0
+                    },
+                    "uuid": "2b3dfedc-fcca-4869-9bde-a4a0924100e3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 20 [/GND] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 94.26
+                    },
+                    "uuid": "356b38cc-648e-4ca6-9eca-84592bf9a3c9"
+                },
+                {
+                    "description": "PTHパッド 32 [/GND] (J3)",
+                    "pos": {
+                        "x": 74.5,
+                        "y": 24.0
+                    },
+                    "uuid": "79fef031-6af3-4c5a-a20d-64c3637c9fc0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 5 [/MCU_A23_D7] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 56.16
+                    },
+                    "uuid": "babe1436-3adf-434b-8b76-eed4b058dedd"
+                },
+                {
+                    "description": "パッド 1 [/MCU_A23_D7] - R24 ( F.Cu 上)",
+                    "pos": {
+                        "x": 93.0875,
+                        "y": 77.0
+                    },
+                    "uuid": "773c993c-f134-4863-be2c-3a78f979771f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD13] - R14 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 86.0
+                    },
+                    "uuid": "2409bd70-c0c1-429b-bc99-2d77f5516001"
+                },
+                {
+                    "description": "PTHパッド 9 [/MCU_AD13] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 66.32
+                    },
+                    "uuid": "570f3633-b8ec-4442-bd1d-55a6e5f6dad5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_nRD] - R26 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.0875,
+                        "y": 66.0
+                    },
+                    "uuid": "d965cf74-ae61-4493-9764-6dea5225348c"
+                },
+                {
+                    "description": "PTHパッド 4 [/MCU_nRD] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 53.62
+                    },
+                    "uuid": "4c9b9848-6f17-4511-9cdd-75e438532915"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD7] - R8 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 68.0
+                    },
+                    "uuid": "0e501c94-0a59-4a94-80b2-f01ac630cf12"
+                },
+                {
+                    "description": "PTHパッド 16 [/MCU_AD7] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 84.1
+                    },
+                    "uuid": "2a4007e2-ae6c-4f64-85fe-d9e474b66273"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD2] - R3 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 53.0
+                    },
+                    "uuid": "66912ba8-33b0-43e4-a909-acd9acd87a6d"
+                },
+                {
+                    "description": "PTHパッド 5 [/MCU_AD2] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 56.16
+                    },
+                    "uuid": "8017dc59-e05b-4660-8b9a-adef895e27c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD10] - R11 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 77.0
+                    },
+                    "uuid": "4ccf8b31-9339-40aa-af6d-6800a85c28f0"
+                },
+                {
+                    "description": "PTHパッド 19 [/MCU_AD10] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 91.72
+                    },
+                    "uuid": "036d067f-9935-412c-b819-9329526cb6b6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD6] - R7 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 65.0
+                    },
+                    "uuid": "519c263a-cb54-46f4-9820-04d1d55824c3"
+                },
+                {
+                    "description": "PTHパッド 15 [/MCU_AD6] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 81.56
+                    },
+                    "uuid": "7a096041-259f-47bb-8f2f-e75387a31c3e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 7 [/MCU_A21_D5] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 61.24
+                    },
+                    "uuid": "64998dfa-e149-460b-bcdb-e0000161401a"
+                },
+                {
+                    "description": "パッド 1 [/MCU_A21_D5] - R22 ( F.Cu 上)",
+                    "pos": {
+                        "x": 93.0875,
+                        "y": 69.0
+                    },
+                    "uuid": "0b3f4eaa-2d4b-4b10-878d-ea37c14e7974"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 9 [/MCU_A19_D3] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 66.32
+                    },
+                    "uuid": "3bc784c5-e156-4b20-952e-2c867d152a87"
+                },
+                {
+                    "description": "パッド 1 [/MCU_A19_D3] - R20 ( F.Cu 上)",
+                    "pos": {
+                        "x": 93.0875,
+                        "y": 61.0
+                    },
+                    "uuid": "31e74f1b-bfae-40e9-b299-900ecb5e4a68"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD15] - R16 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 92.0
+                    },
+                    "uuid": "22aee5df-a016-48f8-9706-d798804ce926"
+                },
+                {
+                    "description": "PTHパッド 17 [/MCU_AD15] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 86.64
+                    },
+                    "uuid": "1e2d04b4-4113-4de4-9fe9-0d50586ec6ed"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 2 [/WR_LINK] - R27 ( F.Cu 上)",
+                    "pos": {
+                        "x": 20.9125,
+                        "y": 70.0
+                    },
+                    "uuid": "c96b2a01-4b77-4526-b9a8-07c6709ad3e9"
+                },
+                {
+                    "description": "PTHパッド 1 [/WR_LINK] (JP1)",
+                    "pos": {
+                        "x": 32.0,
+                        "y": 72.0
+                    },
+                    "uuid": "ad1318c7-e31a-4429-9850-8b0d92c64641"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD1] - R2 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 50.0
+                    },
+                    "uuid": "73ec498e-372b-47f2-873d-0edb4c5c8432"
+                },
+                {
+                    "description": "PTHパッド 4 [/MCU_AD1] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 53.62
+                    },
+                    "uuid": "fdd7da56-9fdf-45e8-bde7-6e2e050da2ed"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 8 [/MCU_A20_D4] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 63.78
+                    },
+                    "uuid": "612fa2a4-4953-4555-8c2c-ac5edeac3db2"
+                },
+                {
+                    "description": "パッド 1 [/MCU_A20_D4] - R21 ( F.Cu 上)",
+                    "pos": {
+                        "x": 93.0875,
+                        "y": 65.0
+                    },
+                    "uuid": "e3455d6d-bca0-4c70-8269-fd7687228f4a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_nCS2] - R28 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.0875,
+                        "y": 74.0
+                    },
+                    "uuid": "e2c636fc-c276-493e-9de8-051c8c55d3b5"
+                },
+                {
+                    "description": "PTHパッド 12 [/MCU_nCS2] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 73.94
+                    },
+                    "uuid": "2eca5e88-32eb-4a5a-8184-688f1b798bf2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 3 [/MCU_A16_D0] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 51.08
+                    },
+                    "uuid": "d29c02a6-5888-4bd0-86b9-314e09097deb"
+                },
+                {
+                    "description": "パッド 1 [/MCU_A16_D0] - R17 ( F.Cu 上)",
+                    "pos": {
+                        "x": 93.0875,
+                        "y": 49.0
+                    },
+                    "uuid": "d1140af0-d0bc-44d9-9490-ba7ef0906fbf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 6 [/MCU_A22_D6] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 58.7
+                    },
+                    "uuid": "d37188f0-b574-49b0-9511-0e131f9f4d2e"
+                },
+                {
+                    "description": "パッド 1 [/MCU_A22_D6] - R23 ( F.Cu 上)",
+                    "pos": {
+                        "x": 93.0875,
+                        "y": 73.0
+                    },
+                    "uuid": "8c9cc5c0-630e-48fc-83f6-975cbe515aae"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_nWR] - R27 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.0875,
+                        "y": 70.0
+                    },
+                    "uuid": "313aa59d-7509-4c1b-b9c2-aebd7059bf8d"
+                },
+                {
+                    "description": "PTHパッド 15 [/MCU_nWR] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 81.56
+                    },
+                    "uuid": "aaba5e20-54fa-4f83-8b9d-ce19c567334d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_nCS] - R25 ( F.Cu 上)",
+                    "pos": {
+                        "x": 19.0875,
+                        "y": 62.0
+                    },
+                    "uuid": "d780bee4-3ed2-4170-be53-4de92241e466"
+                },
+                {
+                    "description": "PTHパッド 16 [/MCU_nCS] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 84.1
+                    },
+                    "uuid": "e3a671e1-e5c3-4999-afff-303087315b88"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 18 [/MCU_A18_D2] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 89.18
+                    },
+                    "uuid": "0eb8d94b-9bac-46bd-bea9-8a80816d37b9"
+                },
+                {
+                    "description": "パッド 1 [/MCU_A18_D2] - R19 ( F.Cu 上)",
+                    "pos": {
+                        "x": 93.0875,
+                        "y": 57.0
+                    },
+                    "uuid": "58b95642-f0c7-48b2-8712-4f0bdf8d4646"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 19 [/MCU_A17_D1] (J2)",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 91.72
+                    },
+                    "uuid": "53449335-d0fe-4dd0-a843-a3b4488f1d84"
+                },
+                {
+                    "description": "パッド 1 [/MCU_A17_D1] - R18 ( F.Cu 上)",
+                    "pos": {
+                        "x": 93.0875,
+                        "y": 53.0
+                    },
+                    "uuid": "d234e6a8-8e2a-483d-a4b3-7ef2cbdf9a8d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "PTHパッド 1 [/BOARD_3V3] (JP2)",
+                    "pos": {
+                        "x": 13.0,
+                        "y": 38.0
+                    },
+                    "uuid": "86ef729b-f7c1-4f16-95e2-dd2329c95ac8"
+                },
+                {
+                    "description": "PTHパッド 1 [/BOARD_3V3] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 46.0
+                    },
+                    "uuid": "70ecfdc3-c33a-4379-9771-61391a8c621f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD4] - R5 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 59.0
+                    },
+                    "uuid": "bae4be51-9916-4829-bfd4-54e1e7aeed2b"
+                },
+                {
+                    "description": "PTHパッド 11 [/MCU_AD4] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 71.4
+                    },
+                    "uuid": "19a73f06-f691-45d3-bbb8-73b41b43c97c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD5] - R6 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 62.0
+                    },
+                    "uuid": "22bf6688-4851-4025-93d6-4ab452651459"
+                },
+                {
+                    "description": "PTHパッド 14 [/MCU_AD5] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 79.02
+                    },
+                    "uuid": "eeef6b35-bd8b-4833-97b0-91a7c97129ea"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD12] - R13 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 83.0
+                    },
+                    "uuid": "8a92d02d-6847-41fb-b7f3-fe2bee1fc22a"
+                },
+                {
+                    "description": "PTHパッド 8 [/MCU_AD12] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 63.78
+                    },
+                    "uuid": "35cb0127-f340-41a8-9af4-078e32d4e37c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD0] - R1 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 47.0
+                    },
+                    "uuid": "2a0ccf31-d6a3-4b36-9942-635cf912eb63"
+                },
+                {
+                    "description": "PTHパッド 3 [/MCU_AD0] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 51.08
+                    },
+                    "uuid": "31e61fc2-b65c-4cc1-8536-dd815343edec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD3] - R4 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 56.0
+                    },
+                    "uuid": "56359b2a-e43b-4342-8324-65fb89605524"
+                },
+                {
+                    "description": "PTHパッド 6 [/MCU_AD3] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 58.7
+                    },
+                    "uuid": "8a4540d6-265a-4517-b2aa-b407c16c3417"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD11] - R12 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 80.0
+                    },
+                    "uuid": "07fd74d3-ed92-47f7-bda8-6d517bdfd998"
+                },
+                {
+                    "description": "PTHパッド 7 [/MCU_AD11] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 61.24
+                    },
+                    "uuid": "fd30d62b-f168-45a5-82a2-95d46e6c6d75"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD14] - R15 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 89.0
+                    },
+                    "uuid": "13b61546-672b-4a09-a96d-fc6830b52963"
+                },
+                {
+                    "description": "PTHパッド 10 [/MCU_AD14] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 68.86
+                    },
+                    "uuid": "231686dc-d22a-4c35-894c-14761eed9624"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD8] - R9 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 71.0
+                    },
+                    "uuid": "b5751d14-6627-4cb6-bd6f-2b5f9371ab77"
+                },
+                {
+                    "description": "PTHパッド 17 [/MCU_AD8] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 86.64
+                    },
+                    "uuid": "c9a91827-fd91-4af3-923c-cc34ff39b24b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "パッド 1 [/MCU_AD9] - R10 ( F.Cu 上)",
+                    "pos": {
+                        "x": 45.0875,
+                        "y": 74.0
+                    },
+                    "uuid": "2ea9cf88-bfac-4240-af10-cdfa078e4991"
+                },
+                {
+                    "description": "PTHパッド 18 [/MCU_AD9] (J1)",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 89.18
+                    },
+                    "uuid": "87e437fb-4183-4ae4-bb52-9032a27cb6df"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト '3V3' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 36.0
+                    },
+                    "uuid": "af346dff-6f78-4849-80fb-b82945473286"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'GND' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 50.0
+                    },
+                    "uuid": "191689a9-52e4-4b6f-bda6-2857afd70063"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'nCS' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 61.0
+                    },
+                    "uuid": "d3134cab-0012-4424-8428-d9d202414e72"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'nRD' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 67.0
+                    },
+                    "uuid": "6741e241-058d-4de6-9c2d-c942621db514"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'nWR' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 73.0
+                    },
+                    "uuid": "d6ad0544-8253-4ce1-a367-270ea3304877"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'nCS2' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 79.0
+                    },
+                    "uuid": "eb420298-f324-4276-9fc1-afe2d3860356"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'REMOVE USB FIRST' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 24.0,
+                        "y": 56.0
+                    },
+                    "uuid": "9b542043-8497-4124-98cf-7e0a5880108e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'PHI' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 37.0,
+                        "y": 41.0
+                    },
+                    "uuid": "5fa18cfa-5a8e-4ca1-ad8a-839bf5df1604"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'AD0' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 49.0
+                    },
+                    "uuid": "7d0146ce-28f7-4b4d-a8f2-0298ce7597ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'AD15' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 94.0
+                    },
+                    "uuid": "9ae22224-d286-47c9-812e-a2c711ea9902"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'nREQ' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 43.0,
+                        "y": 41.0
+                    },
+                    "uuid": "60048f8a-826e-4307-a34f-685ed53ce8bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'A16_D0' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 40.0
+                    },
+                    "uuid": "211a702a-d616-425f-9fd9-6aed1830e821"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'A23_D7' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 85.0
+                    },
+                    "uuid": "ef3ad946-2271-4f88-aef6-5d02b5a2154e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.9000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'POWER LINK' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 43.0
+                    },
+                    "uuid": "a5906c91-1f88-4f00-9f86-81f8585d6324"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.9000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'V1 PLACEMENT / UNROUTED' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 27.0,
+                        "y": 54.0
+                    },
+                    "uuid": "6c827d74-113b-4500-988f-6a2ce59607c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.9000 mm)",
+            "items": [
+                {
+                    "description": "基板上のテキスト 'WR ENABLE' ( F.Silkscreen 上)",
+                    "pos": {
+                        "x": 31.0,
+                        "y": 68.0
+                    },
+                    "uuid": "d7b908e1-829c-449f-80b6-31493a6ba0aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "J3のリファレンスフィールド",
+                    "pos": {
+                        "x": 50.5,
+                        "y": 31.0
+                    },
+                    "uuid": "c5b5357d-9885-4ba2-9efa-ddeb60539b7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "J3のリファレンスフィールド",
+                    "pos": {
+                        "x": 50.5,
+                        "y": 31.0
+                    },
+                    "uuid": "c5b5357d-9885-4ba2-9efa-ddeb60539b7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R24のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 77.0
+                    },
+                    "uuid": "184834d1-7e9b-4017-82e8-b9679e00268e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R24のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 77.0
+                    },
+                    "uuid": "184834d1-7e9b-4017-82e8-b9679e00268e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R14のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 86.0
+                    },
+                    "uuid": "738ca1ed-502b-4280-b597-48a852e7c603"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R14のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 86.0
+                    },
+                    "uuid": "738ca1ed-502b-4280-b597-48a852e7c603"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R26のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 66.0
+                    },
+                    "uuid": "283fc334-3bfe-4604-9558-501bb401a49d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R26のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 66.0
+                    },
+                    "uuid": "283fc334-3bfe-4604-9558-501bb401a49d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R8のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 68.0
+                    },
+                    "uuid": "8481d0ae-2769-4880-b852-46beac55ffa0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R8のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 68.0
+                    },
+                    "uuid": "8481d0ae-2769-4880-b852-46beac55ffa0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R3のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 53.0
+                    },
+                    "uuid": "b52796c0-9570-4306-859f-6a5cab266489"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R3のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 53.0
+                    },
+                    "uuid": "b52796c0-9570-4306-859f-6a5cab266489"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R11のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 77.0
+                    },
+                    "uuid": "fbafe5ab-07d8-470e-9efc-7bdc553fede4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R11のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 77.0
+                    },
+                    "uuid": "fbafe5ab-07d8-470e-9efc-7bdc553fede4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R31のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 88.0
+                    },
+                    "uuid": "b1601ee0-cb45-47e9-8a58-3b38fe9ee092"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R31のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 88.0
+                    },
+                    "uuid": "b1601ee0-cb45-47e9-8a58-3b38fe9ee092"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R7のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 65.0
+                    },
+                    "uuid": "69cc1618-470b-4ca2-b59e-513ad88c9d1a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R7のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 65.0
+                    },
+                    "uuid": "69cc1618-470b-4ca2-b59e-513ad88c9d1a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R22のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 69.0
+                    },
+                    "uuid": "3915b36d-501a-4c13-8e0e-8ad8b965333d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R22のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 69.0
+                    },
+                    "uuid": "3915b36d-501a-4c13-8e0e-8ad8b965333d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "C1のリファレンスフィールド",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 31.32
+                    },
+                    "uuid": "93e0ac84-b05b-499d-b5f0-3ce552426a0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "C1のリファレンスフィールド",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 31.32
+                    },
+                    "uuid": "93e0ac84-b05b-499d-b5f0-3ce552426a0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R20のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 61.0
+                    },
+                    "uuid": "ccf4d6d6-90cd-4cb8-8a4a-9e07ff4eb3a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R20のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 61.0
+                    },
+                    "uuid": "ccf4d6d6-90cd-4cb8-8a4a-9e07ff4eb3a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R16のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 92.0
+                    },
+                    "uuid": "23317d07-8b52-4cda-aaf1-fff69ad1a7f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R16のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 92.0
+                    },
+                    "uuid": "23317d07-8b52-4cda-aaf1-fff69ad1a7f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "JP1のリファレンスフィールド",
+                    "pos": {
+                        "x": 32.0,
+                        "y": 69.62
+                    },
+                    "uuid": "a7f67899-6ac2-4796-b54f-2e0063ffce34"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "JP1のリファレンスフィールド",
+                    "pos": {
+                        "x": 32.0,
+                        "y": 69.62
+                    },
+                    "uuid": "a7f67899-6ac2-4796-b54f-2e0063ffce34"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP7のリファレンスフィールド",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 45.0
+                    },
+                    "uuid": "abaf7df3-8c0a-4223-91b9-a413880833c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP7のリファレンスフィールド",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 45.0
+                    },
+                    "uuid": "abaf7df3-8c0a-4223-91b9-a413880833c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R2のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 50.0
+                    },
+                    "uuid": "85d2e4b9-375f-4f72-840b-c2d33bf4aa75"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R2のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 50.0
+                    },
+                    "uuid": "85d2e4b9-375f-4f72-840b-c2d33bf4aa75"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R21のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 65.0
+                    },
+                    "uuid": "7b34f53b-113b-4f06-bda8-dc730c92b041"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R21のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 65.0
+                    },
+                    "uuid": "7b34f53b-113b-4f06-bda8-dc730c92b041"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R33のリファレンスフィールド",
+                    "pos": {
+                        "x": 33.4,
+                        "y": 33.0
+                    },
+                    "uuid": "d12a4059-d0e6-4cd8-9d10-a7059729dfb0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R33のリファレンスフィールド",
+                    "pos": {
+                        "x": 33.4,
+                        "y": 33.0
+                    },
+                    "uuid": "d12a4059-d0e6-4cd8-9d10-a7059729dfb0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R28のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 74.0
+                    },
+                    "uuid": "47b29030-4a85-4ad1-b857-70a77ca3f9bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R28のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 74.0
+                    },
+                    "uuid": "47b29030-4a85-4ad1-b857-70a77ca3f9bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "J2のリファレンスフィールド",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 43.23
+                    },
+                    "uuid": "dca05269-a0cb-4219-b7ce-2f216f115ba3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "J2のリファレンスフィールド",
+                    "pos": {
+                        "x": 83.4,
+                        "y": 43.23
+                    },
+                    "uuid": "dca05269-a0cb-4219-b7ce-2f216f115ba3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "JP2のリファレンスフィールド",
+                    "pos": {
+                        "x": 13.0,
+                        "y": 35.62
+                    },
+                    "uuid": "97441192-2ae8-485d-9e1c-67fab9dd0bc7"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "JP2のリファレンスフィールド",
+                    "pos": {
+                        "x": 13.0,
+                        "y": 35.62
+                    },
+                    "uuid": "97441192-2ae8-485d-9e1c-67fab9dd0bc7"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R30のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 84.0
+                    },
+                    "uuid": "27485ea2-762a-414b-a050-149bee53206f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R30のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 84.0
+                    },
+                    "uuid": "27485ea2-762a-414b-a050-149bee53206f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP9のリファレンスフィールド",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 36.0
+                    },
+                    "uuid": "17670859-a11a-42bc-9481-efe69e635ce4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP9のリファレンスフィールド",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 36.0
+                    },
+                    "uuid": "17670859-a11a-42bc-9481-efe69e635ce4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R29のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 80.0
+                    },
+                    "uuid": "29b6b3f6-a9c2-4a0e-a68a-849b20937c7c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R29のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 80.0
+                    },
+                    "uuid": "29b6b3f6-a9c2-4a0e-a68a-849b20937c7c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R25のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 62.0
+                    },
+                    "uuid": "6e4b0796-5786-42de-9ae8-f1cf3e65de85"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R25のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 62.0
+                    },
+                    "uuid": "6e4b0796-5786-42de-9ae8-f1cf3e65de85"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R27のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 70.0
+                    },
+                    "uuid": "2ad1bab5-3494-4865-96cb-8188a16af77d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R27のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 70.0
+                    },
+                    "uuid": "2ad1bab5-3494-4865-96cb-8188a16af77d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R5のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 59.0
+                    },
+                    "uuid": "f269fbf9-f022-4134-94b3-e663b4c8cfce"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R5のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 59.0
+                    },
+                    "uuid": "f269fbf9-f022-4134-94b3-e663b4c8cfce"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R6のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 62.0
+                    },
+                    "uuid": "889f6eee-bf1b-4a2d-86b8-eeaee7eb0f05"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R6のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 62.0
+                    },
+                    "uuid": "889f6eee-bf1b-4a2d-86b8-eeaee7eb0f05"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP12のリファレンスフィールド",
+                    "pos": {
+                        "x": 43.0,
+                        "y": 37.0
+                    },
+                    "uuid": "8a59e833-ad3e-4e06-b45e-710fa2680bd1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP12のリファレンスフィールド",
+                    "pos": {
+                        "x": 43.0,
+                        "y": 37.0
+                    },
+                    "uuid": "8a59e833-ad3e-4e06-b45e-710fa2680bd1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R13のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 83.0
+                    },
+                    "uuid": "ae80b024-1afb-4a38-8d45-fd8af4d5a649"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R13のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 83.0
+                    },
+                    "uuid": "ae80b024-1afb-4a38-8d45-fd8af4d5a649"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R1のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 47.0
+                    },
+                    "uuid": "2b8937dc-9a0c-459a-bca9-8d9eb0a488da"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R1のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 47.0
+                    },
+                    "uuid": "2b8937dc-9a0c-459a-bca9-8d9eb0a488da"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "J1のリファレンスフィールド",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 43.23
+                    },
+                    "uuid": "021e2914-875f-47c1-8393-3b85473c9254"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "J1のリファレンスフィールド",
+                    "pos": {
+                        "x": 58.0,
+                        "y": 43.23
+                    },
+                    "uuid": "021e2914-875f-47c1-8393-3b85473c9254"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R12のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 80.0
+                    },
+                    "uuid": "84867724-fdc4-4f17-b4b0-79f7cb58452d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R12のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 80.0
+                    },
+                    "uuid": "84867724-fdc4-4f17-b4b0-79f7cb58452d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R23のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 73.0
+                    },
+                    "uuid": "c96b21be-9068-43db-a980-85e76bc49928"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R23のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 73.0
+                    },
+                    "uuid": "c96b21be-9068-43db-a980-85e76bc49928"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP3のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 57.0
+                    },
+                    "uuid": "f1a6b7a8-bd53-4acb-8c52-f65e28627380"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP3のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 57.0
+                    },
+                    "uuid": "f1a6b7a8-bd53-4acb-8c52-f65e28627380"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R17のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 49.0
+                    },
+                    "uuid": "6f39f092-8b34-4472-a188-397e584b78e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R17のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 49.0
+                    },
+                    "uuid": "6f39f092-8b34-4472-a188-397e584b78e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "C2のリファレンスフィールド",
+                    "pos": {
+                        "x": 28.0,
+                        "y": 31.32
+                    },
+                    "uuid": "40f63cff-0164-4493-93cd-baf6193720b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "C2のリファレンスフィールド",
+                    "pos": {
+                        "x": 28.0,
+                        "y": 31.32
+                    },
+                    "uuid": "40f63cff-0164-4493-93cd-baf6193720b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R4のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 56.0
+                    },
+                    "uuid": "236fa94f-9755-44c6-878a-66b6fcb20ef1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R4のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 56.0
+                    },
+                    "uuid": "236fa94f-9755-44c6-878a-66b6fcb20ef1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R15のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 89.0
+                    },
+                    "uuid": "e0dde849-876e-4c94-a308-91f395708b67"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R15のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 89.0
+                    },
+                    "uuid": "e0dde849-876e-4c94-a308-91f395708b67"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP5のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 69.0
+                    },
+                    "uuid": "6b2db00c-c1ab-4096-90f1-b9d70463c738"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP5のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 69.0
+                    },
+                    "uuid": "6b2db00c-c1ab-4096-90f1-b9d70463c738"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R9のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 71.0
+                    },
+                    "uuid": "ba8a734d-9721-4999-85ce-5bb333d23362"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R9のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 71.0
+                    },
+                    "uuid": "ba8a734d-9721-4999-85ce-5bb333d23362"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP4のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 63.0
+                    },
+                    "uuid": "01d35ce6-9409-4622-a78b-b12bc438f405"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP4のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 63.0
+                    },
+                    "uuid": "01d35ce6-9409-4622-a78b-b12bc438f405"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP2のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 46.0
+                    },
+                    "uuid": "4b9e355e-f2a4-4f0c-8d8c-d685169c2771"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP2のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 46.0
+                    },
+                    "uuid": "4b9e355e-f2a4-4f0c-8d8c-d685169c2771"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP1のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 32.0
+                    },
+                    "uuid": "76941be4-df96-4c25-8654-67d8dd424fdd"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP1のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 32.0
+                    },
+                    "uuid": "76941be4-df96-4c25-8654-67d8dd424fdd"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R10のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 74.0
+                    },
+                    "uuid": "fb417a0f-fe24-412a-8ba5-3a8c92431d4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R10のリファレンスフィールド",
+                    "pos": {
+                        "x": 42.4,
+                        "y": 74.0
+                    },
+                    "uuid": "fb417a0f-fe24-412a-8ba5-3a8c92431d4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP10のリファレンスフィールド",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 81.0
+                    },
+                    "uuid": "ec8395d6-6e63-44d7-b564-70beee4ff6d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP10のリファレンスフィールド",
+                    "pos": {
+                        "x": 94.0,
+                        "y": 81.0
+                    },
+                    "uuid": "ec8395d6-6e63-44d7-b564-70beee4ff6d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP11のリファレンスフィールド",
+                    "pos": {
+                        "x": 37.0,
+                        "y": 37.0
+                    },
+                    "uuid": "561a76eb-0857-452a-b400-65d8cd6c9d73"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP11のリファレンスフィールド",
+                    "pos": {
+                        "x": 37.0,
+                        "y": 37.0
+                    },
+                    "uuid": "561a76eb-0857-452a-b400-65d8cd6c9d73"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R18のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 53.0
+                    },
+                    "uuid": "aaa30f60-2726-4b98-9ab7-4088499fc0bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R18のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 53.0
+                    },
+                    "uuid": "aaa30f60-2726-4b98-9ab7-4088499fc0bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP8のリファレンスフィールド",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 90.0
+                    },
+                    "uuid": "9ad9ea41-05ff-4ad2-90f4-91930bc63933"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP8のリファレンスフィールド",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 90.0
+                    },
+                    "uuid": "9ad9ea41-05ff-4ad2-90f4-91930bc63933"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "TP6のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 75.0
+                    },
+                    "uuid": "bc5fba12-df9b-403a-ae72-d615e13a3cf1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "TP6のリファレンスフィールド",
+                    "pos": {
+                        "x": 7.0,
+                        "y": 75.0
+                    },
+                    "uuid": "bc5fba12-df9b-403a-ae72-d615e13a3cf1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R32のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 92.0
+                    },
+                    "uuid": "3a22b393-f75f-4997-a532-a7cf5c191063"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R32のリファレンスフィールド",
+                    "pos": {
+                        "x": 16.399999,
+                        "y": 92.0
+                    },
+                    "uuid": "3a22b393-f75f-4997-a532-a7cf5c191063"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字の太さが許容範囲外 (基板の設定のシルク印刷のテキストの太さの制約 最小幅 0.1500 mm; 現状 0.1300 mm)",
+            "items": [
+                {
+                    "description": "R19のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 57.0
+                    },
+                    "uuid": "4ea0b726-f856-4e64-b444-d23058abccd5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "文字の高さが許容範囲外 (基板の設定のシルク印刷のテキスト高の制約 最小高さ 1.0000 mm; 現状 0.8500 mm)",
+            "items": [
+                {
+                    "description": "R19のリファレンスフィールド",
+                    "pos": {
+                        "x": 90.4,
+                        "y": 57.0
+                    },
+                    "uuid": "4ea0b726-f856-4e64-b444-d23058abccd5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        }
+    ]
+}

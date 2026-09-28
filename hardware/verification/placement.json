@@ -1,0 +1,393 @@
+{
+  "board_mm": [
+    100,
+    100
+  ],
+  "copper_layers": 4,
+  "routed": false,
+  "components": [
+    {
+      "reference": "C1",
+      "x_mm": 22,
+      "y_mm": 33,
+      "rotation_deg": 0,
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    {
+      "reference": "C2",
+      "x_mm": 28,
+      "y_mm": 33,
+      "rotation_deg": 0,
+      "footprint": "Capacitor_SMD:C_0805_2012Metric"
+    },
+    {
+      "reference": "J1",
+      "x_mm": 57,
+      "y_mm": 44.5,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:PinSocket_1x22_P2.54mm_D1.02mm"
+    },
+    {
+      "reference": "J2",
+      "x_mm": 84.94,
+      "y_mm": 44.5,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:PinSocket_1x22_P2.54mm_D1.02mm"
+    },
+    {
+      "reference": "J3",
+      "x_mm": 28,
+      "y_mm": 27,
+      "rotation_deg": 0,
+      "footprint": "Gekkio_Connector_PCBEdge:GameBoy_Cartridge_AGB_1x32_P1.50mm_Socket_Horizontal"
+    },
+    {
+      "reference": "JP1",
+      "x_mm": 32,
+      "y_mm": 72,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:PinHeader_1x02_P2.54mm_D1.02mm"
+    },
+    {
+      "reference": "JP2",
+      "x_mm": 13,
+      "y_mm": 38,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:PinHeader_1x02_P2.54mm_D1.02mm"
+    },
+    {
+      "reference": "R1",
+      "x_mm": 46,
+      "y_mm": 47,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R2",
+      "x_mm": 46,
+      "y_mm": 50,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R3",
+      "x_mm": 46,
+      "y_mm": 53,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R4",
+      "x_mm": 46,
+      "y_mm": 56,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R5",
+      "x_mm": 46,
+      "y_mm": 59,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R6",
+      "x_mm": 46,
+      "y_mm": 62,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R7",
+      "x_mm": 46,
+      "y_mm": 65,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R8",
+      "x_mm": 46,
+      "y_mm": 68,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R9",
+      "x_mm": 46,
+      "y_mm": 71,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R10",
+      "x_mm": 46,
+      "y_mm": 74,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R11",
+      "x_mm": 46,
+      "y_mm": 77,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R12",
+      "x_mm": 46,
+      "y_mm": 80,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R13",
+      "x_mm": 46,
+      "y_mm": 83,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R14",
+      "x_mm": 46,
+      "y_mm": 86,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R15",
+      "x_mm": 46,
+      "y_mm": 89,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R16",
+      "x_mm": 46,
+      "y_mm": 92,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R17",
+      "x_mm": 94,
+      "y_mm": 49,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R18",
+      "x_mm": 94,
+      "y_mm": 53,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R19",
+      "x_mm": 94,
+      "y_mm": 57,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R20",
+      "x_mm": 94,
+      "y_mm": 61,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R21",
+      "x_mm": 94,
+      "y_mm": 65,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R22",
+      "x_mm": 94,
+      "y_mm": 69,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R23",
+      "x_mm": 94,
+      "y_mm": 73,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R24",
+      "x_mm": 94,
+      "y_mm": 77,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R25",
+      "x_mm": 20,
+      "y_mm": 62,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R26",
+      "x_mm": 20,
+      "y_mm": 66,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R27",
+      "x_mm": 20,
+      "y_mm": 70,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R28",
+      "x_mm": 20,
+      "y_mm": 74,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R29",
+      "x_mm": 20,
+      "y_mm": 80,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R30",
+      "x_mm": 20,
+      "y_mm": 84,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R31",
+      "x_mm": 20,
+      "y_mm": 88,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R32",
+      "x_mm": 20,
+      "y_mm": 92,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "R33",
+      "x_mm": 37,
+      "y_mm": 33,
+      "rotation_deg": 0,
+      "footprint": "Resistor_SMD:R_0805_2012Metric"
+    },
+    {
+      "reference": "TP1",
+      "x_mm": 7,
+      "y_mm": 34,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "reference": "TP2",
+      "x_mm": 7,
+      "y_mm": 48,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "reference": "TP3",
+      "x_mm": 7,
+      "y_mm": 59,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "reference": "TP4",
+      "x_mm": 7,
+      "y_mm": 65,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "reference": "TP5",
+      "x_mm": 7,
+      "y_mm": 71,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "reference": "TP6",
+      "x_mm": 7,
+      "y_mm": 77,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "reference": "TP7",
+      "x_mm": 38,
+      "y_mm": 47,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "reference": "TP8",
+      "x_mm": 38,
+      "y_mm": 92,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "reference": "TP9",
+      "x_mm": 94,
+      "y_mm": 38,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "reference": "TP10",
+      "x_mm": 94,
+      "y_mm": 83,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "reference": "TP11",
+      "x_mm": 37,
+      "y_mm": 39,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    },
+    {
+      "reference": "TP12",
+      "x_mm": 43,
+      "y_mm": 39,
+      "rotation_deg": 0,
+      "footprint": "GBA_Mechanical:TestPoint_Pad_D2.0mm"
+    }
+  ],
+  "mounting_holes_mm": [
+    [
+      5,
+      5
+    ],
+    [
+      95,
+      5
+    ],
+    [
+      5,
+      95
+    ],
+    [
+      95,
+      95
+    ]
+  ],
+  "mechanical_envelope": "OFFICIAL_WEACT_PDF_DIMENSIONS_USB_SIDE_ORIGIN_PENDING_AS_BUILT_CHECK"
+}

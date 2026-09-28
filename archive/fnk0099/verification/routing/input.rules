@@ -1,0 +1,7 @@
+(rules PCB route
+ (autoroute_settings
+  (autoroute on) (postroute on)
+  (layer_rule F.Cu (active on) (preferred_direction horizontal))
+  (layer_rule In1.Cu (active off))
+  (layer_rule In2.Cu (active on) (preferred_direction vertical))
+  (layer_rule B.Cu (active on) (preferred_direction horizontal))))

@@ -1,0 +1,70 @@
+{
+  "before_sha256": "f82e1510088dc8d68afde2a0d4bb7c7295ba51f3cd3fb96b2a83d12f0298f51f",
+  "after_sha256": "6fb1e9db6225cae40529b8c8ac1f271f336adfcd804d57db4f7258313489704c",
+  "unchanged_other_track_via_blocks": 624,
+  "other_tracks_vias_byte_identical": true,
+  "cart_ad6_unchanged": true,
+  "before": {
+    "path_mm": 83.23199262877046,
+    "segments": [
+      {
+        "net": "/MCU_AD6",
+        "from": [
+          "J1",
+          "16"
+        ],
+        "to": [
+          "R7",
+          "1"
+        ],
+        "track_path_mm": 35.66497577754577
+      },
+      {
+        "net": "/CART_AD6",
+        "from": [
+          "R7",
+          "2"
+        ],
+        "to": [
+          "J3",
+          "12"
+        ],
+        "track_path_mm": 47.567016851224686
+      }
+    ]
+  },
+  "after": {
+    "path_mm": 73.68861651939032,
+    "segments": [
+      {
+        "net": "/MCU_AD6",
+        "from": [
+          "J1",
+          "16"
+        ],
+        "to": [
+          "R7",
+          "1"
+        ],
+        "track_path_mm": 26.12159966816564
+      },
+      {
+        "net": "/CART_AD6",
+        "from": [
+          "R7",
+          "2"
+        ],
+        "to": [
+          "J3",
+          "12"
+        ],
+        "track_path_mm": 47.567016851224686
+      }
+    ]
+  },
+  "shortening_mm": 9.543376109380134,
+  "shortening_percent": 11.465994995392325,
+  "ad6_vias_before": 2,
+  "ad6_vias_after": 3,
+  "global_optimum_proven": false
+}

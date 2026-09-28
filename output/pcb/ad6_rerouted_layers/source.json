@@ -1,0 +1,12 @@
+{
+  "source": "hardware/gba_dumper.kicad_pcb",
+  "sha256": "6fb1e9db6225cae40529b8c8ac1f271f336adfcd804d57db4f7258313489704c",
+  "layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "view": "top, not mirrored",
+  "ad6_main_path_mm": 73.68861651939032
+}

@@ -1,0 +1,59 @@
+2026-09-28 14:35:25.913 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-28 14:35:27.412 INFO   [580DF4\690CE3] Loading board file 'route.dsn'...
+2026-09-28 14:35:27.512 WARN   Power-plane validation failed:
+- Dedicated power layer 'In1.Cu' has no conduction areas defined.
+
+Proper Definition and Best Practices for Power Planes:
+1. What Belongs on a Power Plane:
+   - Solid Copper Pours: A single, uninterrupted sheet of copper assigned to one voltage (e.g., +3.3V).
+   - Split Planes: Multiple distinct voltage zones divided by thin isolation gaps (puzzle pieces).
+   - Vias and Anti-Pads: Plated holes passing through the board, surrounded by circular voids (anti-pads) to prevent shorting.
+   - Thermal Reliefs: Spoked connections for vias or pins that connect to the plane, facilitating soldering.
+2. Why Signal Wires/Traces are Banned:
+   - Destroyed Return Paths: High-speed signals on adjacent layers couple to the solid plane below/above as return paths. Crossing a trace gap detours return currents, causing severe EMI and signal integrity issues.
+   - Compromised Power Delivery: Power planes should provide the lowest impedance path. Routing traces chops up the copper, creating bottleneck restrictions and voltage drops.
+
+2026-09-28 14:35:27.530 INFO   [580DF4\690CE3] Job '580DF4\690CE3' started at 2026-09-28T05:35:27.530156Z.
+2026-09-28 14:35:27.621 INFO   [580DF4\690CE3] Fanout stage started on board '3bcf60a1d62b3bb1687159327b1a6fa6' with 7 of 82 SMD pins needing fanout (75 already connected, 0 netless).
+2026-09-28 14:35:27.834 INFO   [580DF4\690CE3] Fanout pass #1 on board '10153a3906b1aa85a82209c4984812d6' completed in 0.18 seconds with 2 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-09-28 14:35:27.947 INFO   [580DF4\690CE3] Fanout pass #2 on board '3bcf60a1d62b3bb1687159327b1a6fa6' completed in 0.09 seconds with 2 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-09-28 14:35:28.044 INFO   [580DF4\690CE3] Fanout pass #3 on board 'dc2c40147b5a13364593b25b865bfe13' completed in 0.09 seconds with 2 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=300).
+2026-09-28 14:35:28.119 INFO   [580DF4\690CE3] Fanout pass #4 on board '3bcf60a1d62b3bb1687159327b1a6fa6' completed in 0.07 seconds with 2 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=400).
+2026-09-28 14:35:28.119 INFO   Fanout stopped after 4 passes: no progress for 3 consecutive passes.
+2026-09-28 14:35:28.130 INFO   [580DF4\690CE3] Fanout stage completed: started with 82 total SMD pins, completed in 0.50 seconds, escaped pins: 82/82 (100.0%), using 0.44 total CPU seconds, 3.58 GB total allocated, and 509.2 MB peak heap usage.
+2026-09-28 14:35:28.138 INFO   [580DF4\690CE3] Auto-routing stage started on board '3bcf60a1d62b3bb1687159327b1a6fa6' for 4 unrouted items.
+2026-09-28 14:35:28.452 INFO   [580DF4\690CE3] Auto-routing pass #1 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.27 seconds with score 955.54 (4 unrouted and 0 violations).
+2026-09-28 14:35:28.689 INFO   [580DF4\690CE3] Auto-routing pass #2 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.21 seconds with score 955.54 (4 unrouted and 0 violations), using 0.89 CPU seconds and the job allocated 9.30 GB of memory so far.
+2026-09-28 14:35:28.875 INFO   [580DF4\690CE3] Auto-routing pass #3 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.16 seconds with score 955.54 (4 unrouted and 0 violations), using 0.89 CPU seconds and the job allocated 9.30 GB of memory so far.
+2026-09-28 14:35:29.083 INFO   [580DF4\690CE3] Auto-routing pass #4 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.19 seconds with score 955.54 (4 unrouted and 0 violations), using 0.89 CPU seconds and the job allocated 9.30 GB of memory so far.
+2026-09-28 14:35:29.255 INFO   [580DF4\690CE3] Auto-routing pass #5 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.15 seconds with score 955.54 (4 unrouted and 0 violations), using 0.89 CPU seconds and the job allocated 9.30 GB of memory so far.
+2026-09-28 14:35:29.424 INFO   [580DF4\690CE3] Auto-routing pass #6 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.15 seconds with score 955.54 (4 unrouted and 0 violations), using 0.89 CPU seconds and the job allocated 9.30 GB of memory so far.
+2026-09-28 14:35:29.618 INFO   [580DF4\690CE3] Auto-routing pass #7 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.17 seconds with score 955.54 (4 unrouted and 0 violations), using 1.87 CPU seconds and the job allocated 28.45 GB of memory so far.
+2026-09-28 14:35:29.800 INFO   [580DF4\690CE3] Auto-routing pass #8 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.16 seconds with score 955.54 (4 unrouted and 0 violations), using 1.87 CPU seconds and the job allocated 28.45 GB of memory so far.
+2026-09-28 14:35:29.960 INFO   [580DF4\690CE3] Auto-routing pass #9 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.14 seconds with score 955.54 (4 unrouted and 0 violations), using 1.87 CPU seconds and the job allocated 28.45 GB of memory so far.
+2026-09-28 14:35:30.106 INFO   [580DF4\690CE3] Auto-routing pass #10 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.13 seconds with score 955.54 (4 unrouted and 0 violations), using 1.87 CPU seconds and the job allocated 28.45 GB of memory so far.
+2026-09-28 14:35:30.259 INFO   [580DF4\690CE3] Auto-routing pass #11 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.13 seconds with score 955.54 (4 unrouted and 0 violations), using 1.87 CPU seconds and the job allocated 28.45 GB of memory so far.
+2026-09-28 14:35:30.413 INFO   [580DF4\690CE3] Auto-routing pass #12 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.12 seconds with score 955.54 (4 unrouted and 0 violations), using 1.87 CPU seconds and the job allocated 28.45 GB of memory so far.
+2026-09-28 14:35:30.564 INFO   [580DF4\690CE3] Auto-routing pass #13 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.13 seconds with score 955.54 (4 unrouted and 0 violations), using 2.84 CPU seconds and the job allocated 51.66 GB of memory so far.
+2026-09-28 14:35:30.700 INFO   [580DF4\690CE3] Auto-routing pass #14 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.12 seconds with score 955.54 (4 unrouted and 0 violations), using 2.84 CPU seconds and the job allocated 51.66 GB of memory so far.
+2026-09-28 14:35:30.875 INFO   [580DF4\690CE3] Auto-routing pass #15 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.16 seconds with score 955.54 (4 unrouted and 0 violations), using 2.84 CPU seconds and the job allocated 51.66 GB of memory so far.
+2026-09-28 14:35:31.012 INFO   [580DF4\690CE3] Auto-routing pass #16 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.12 seconds with score 955.54 (4 unrouted and 0 violations), using 2.84 CPU seconds and the job allocated 51.66 GB of memory so far.
+2026-09-28 14:35:31.166 INFO   [580DF4\690CE3] Auto-routing pass #17 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.14 seconds with score 955.54 (4 unrouted and 0 violations), using 2.84 CPU seconds and the job allocated 51.66 GB of memory so far.
+2026-09-28 14:35:31.309 INFO   [580DF4\690CE3] Auto-routing pass #18 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.12 seconds with score 955.54 (4 unrouted and 0 violations), using 2.84 CPU seconds and the job allocated 51.66 GB of memory so far.
+2026-09-28 14:35:31.319 INFO   [580DF4\690CE3] The router's best score (955.54) has not improved by more than 0.5 points since pass #8. Stopping the auto-router after 18 passes (4 items still unconnected).
+The following connections could not be routed -- please review your design (e.g. check pad clearances, trace width rules, and available routing space):
+  Net '/GND' (2 unrouted connections):
+    - C1-2  ->  C2-2
+    - J3-32  ->  J2-1
+  Net '/CART_AD15' (1 unrouted connection):
+    - R16-2  ->  J3-21
+  Net '/MCU_AD6' (1 unrouted connection):
+    - J1-16  ->  R7-1
+2026-09-28 14:35:31.345 INFO   [580DF4\690CE3] Auto-routing stage completed: started with 4 unrouted nets, completed in 3.76 seconds, final score: 955.54 (4 unrouted and 0 violations), using 2.84 total CPU seconds, 51.66 GB total allocated, and 227.4 MB peak heap usage.
+2026-09-28 14:35:31.359 INFO   [580DF4\690CE3] Optimization stage started on board '3bcf60a1d62b3bb1687159327b1a6fa6' with score 955.54 (4 unrouted and 0 violations).
+2026-09-28 14:35:31.405 INFO   [580DF4\690CE3] Optimizer pass #1 on board '3bcf60a1d62b3bb1687159327b1a6fa6' was completed in 0.00 seconds with the score of 955.54 (4 unrouted and 0 violations).
+2026-09-28 14:35:31.417 INFO   [580DF4\690CE3] Stopping optimizer because the improvement in this pass (0.0000%) is below the threshold (1.00%).
+2026-09-28 14:35:31.429 INFO   [580DF4\690CE3] Optimization stage completed: started with score 955.54 (4 unrouted and 0 violations), completed in 0.06 seconds, final score: 955.54 (4 unrouted and 0 violations), using 0.06 total CPU seconds, 1.36 GB total allocated, and 377.0 MB peak heap usage.
+2026-09-28 14:35:31.434 INFO   [580DF4\690CE3] Job '580DF4\690CE3' finished with state: COMPLETED (elapsed: 3.90 seconds, finished at UTC: 2026-09-28T05:35:31.434184Z).
+2026-09-28 14:35:31.729 INFO   Saving output file '/workspace/gba-dumper/tmp/ad6-reroute/route.ses' (SES)...
+2026-09-28 14:35:31.734 INFO   Successfully saved output file '/workspace/gba-dumper/tmp/ad6-reroute/route.ses' (82153 bytes).

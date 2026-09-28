@@ -1,0 +1,257 @@
+{
+  "id": "WEACT_ESP32S3_A_N16R2_GBA_V1_20260928",
+  "signals": [
+    {
+      "signal": "AD0",
+      "gpio": 4,
+      "cart_pin": 6,
+      "resistor": "R1",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 4
+    },
+    {
+      "signal": "AD1",
+      "gpio": 5,
+      "cart_pin": 7,
+      "resistor": "R2",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 5
+    },
+    {
+      "signal": "AD2",
+      "gpio": 6,
+      "cart_pin": 8,
+      "resistor": "R3",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 6
+    },
+    {
+      "signal": "AD3",
+      "gpio": 7,
+      "cart_pin": 9,
+      "resistor": "R4",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 7
+    },
+    {
+      "signal": "AD4",
+      "gpio": 8,
+      "cart_pin": 10,
+      "resistor": "R5",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 12
+    },
+    {
+      "signal": "AD5",
+      "gpio": 9,
+      "cart_pin": 11,
+      "resistor": "R6",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 15
+    },
+    {
+      "signal": "AD6",
+      "gpio": 10,
+      "cart_pin": 12,
+      "resistor": "R7",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 16
+    },
+    {
+      "signal": "AD7",
+      "gpio": 11,
+      "cart_pin": 13,
+      "resistor": "R8",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 17
+    },
+    {
+      "signal": "AD8",
+      "gpio": 12,
+      "cart_pin": 14,
+      "resistor": "R9",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 18
+    },
+    {
+      "signal": "AD9",
+      "gpio": 13,
+      "cart_pin": 15,
+      "resistor": "R10",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 19
+    },
+    {
+      "signal": "AD10",
+      "gpio": 14,
+      "cart_pin": 16,
+      "resistor": "R11",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 20
+    },
+    {
+      "signal": "AD11",
+      "gpio": 15,
+      "cart_pin": 17,
+      "resistor": "R12",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 8
+    },
+    {
+      "signal": "AD12",
+      "gpio": 16,
+      "cart_pin": 18,
+      "resistor": "R13",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 9
+    },
+    {
+      "signal": "AD13",
+      "gpio": 17,
+      "cart_pin": 19,
+      "resistor": "R14",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 10
+    },
+    {
+      "signal": "AD14",
+      "gpio": 18,
+      "cart_pin": 20,
+      "resistor": "R15",
+      "ohms": 330,
+      "socket": "J1",
+      "socket_pin": 11
+    },
+    {
+      "signal": "AD15",
+      "gpio": 21,
+      "cart_pin": 21,
+      "resistor": "R16",
+      "ohms": 330,
+      "socket": "J2",
+      "socket_pin": 18
+    },
+    {
+      "signal": "A16_D0",
+      "gpio": 1,
+      "cart_pin": 22,
+      "resistor": "R17",
+      "ohms": 330,
+      "socket": "J2",
+      "socket_pin": 4
+    },
+    {
+      "signal": "A17_D1",
+      "gpio": 35,
+      "cart_pin": 23,
+      "resistor": "R18",
+      "ohms": 330,
+      "socket": "J2",
+      "socket_pin": 13
+    },
+    {
+      "signal": "A18_D2",
+      "gpio": 36,
+      "cart_pin": 24,
+      "resistor": "R19",
+      "ohms": 330,
+      "socket": "J2",
+      "socket_pin": 12
+    },
+    {
+      "signal": "A19_D3",
+      "gpio": 38,
+      "cart_pin": 25,
+      "resistor": "R20",
+      "ohms": 330,
+      "socket": "J2",
+      "socket_pin": 10
+    },
+    {
+      "signal": "A20_D4",
+      "gpio": 39,
+      "cart_pin": 26,
+      "resistor": "R21",
+      "ohms": 330,
+      "socket": "J2",
+      "socket_pin": 9
+    },
+    {
+      "signal": "A21_D5",
+      "gpio": 40,
+      "cart_pin": 27,
+      "resistor": "R22",
+      "ohms": 330,
+      "socket": "J2",
+      "socket_pin": 8
+    },
+    {
+      "signal": "A22_D6",
+      "gpio": 41,
+      "cart_pin": 28,
+      "resistor": "R23",
+      "ohms": 330,
+      "socket": "J2",
+      "socket_pin": 7
+    },
+    {
+      "signal": "A23_D7",
+      "gpio": 42,
+      "cart_pin": 29,
+      "resistor": "R24",
+      "ohms": 330,
+      "socket": "J2",
+      "socket_pin": 6
+    },
+    {
+      "signal": "nCS",
+      "gpio": 47,
+      "cart_pin": 5,
+      "resistor": "R25",
+      "ohms": 100,
+      "socket": "J2",
+      "socket_pin": 17
+    },
+    {
+      "signal": "nRD",
+      "gpio": 2,
+      "cart_pin": 4,
+      "resistor": "R26",
+      "ohms": 100,
+      "socket": "J2",
+      "socket_pin": 5
+    },
+    {
+      "signal": "nWR",
+      "gpio": 37,
+      "cart_pin": 3,
+      "resistor": "R27",
+      "ohms": 100,
+      "socket": "J2",
+      "socket_pin": 11
+    },
+    {
+      "signal": "nCS2",
+      "gpio": 3,
+      "cart_pin": 30,
+      "resistor": "R28",
+      "ohms": 100,
+      "socket": "J1",
+      "socket_pin": 13
+    }
+  ]
+}
