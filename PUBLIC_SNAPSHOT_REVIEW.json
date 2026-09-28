@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_REVIEW_PASSED_NOT_PUBLISHED",
+  "status": "PUBLISHED",
   "source_commit": "b68e7f98d4360e68483cfd35206526ec001b839d",
   "excluded": [
     "docs/publishing/README.md",
@@ -31,7 +31,7 @@
     "LICENSE.md": "3cc2a3eedf85f6885e52e1f451a943f5541fa46057d6ba2ae5ae3e17a648d5c1",
     "LICENSES/CERN-OHL-P-2.0.txt": "eeecc593866fa1c3b80189c7e3dc0ceb77740557fa92f81771f891cc54c579cb",
     "LICENSES/MIT.txt": "37e080e8b52fbd97d8509928e8ace6e9c5ed36a5efa95cc588d9a9637e20d409",
-    "PUBLICATION_PENDING.md": "7e8c9a9b8783a927d0408d82f9ecf8dd2c46aa212cad68fcb069bea27d9ed14c",
+    "PUBLICATION_PENDING.md": "31cbed5cea064e99d7c60635caa385db10b6b2c32482d42140df8fcf4bf94430",
     "README.md": "0a35ad3427b5c5c698136b4d3c55303cfe8eba19c268be635de13d5eeed897cf",
     "THIRD_PARTY_NOTICES.md": "90c25b230e988b0191e1e5c19c591aa29355c0c65bf68bfb407b546544e86ff6",
     "archive/fnk0099/PinSocket_1x20_P2.54mm_D1.02mm.kicad_mod": "38db4e1f582338bfe43e85dd4059aa29d27521afe2348da5d606d1a33de4c56f",
@@ -115,7 +115,7 @@
     "docs/compatibility.md": "102d305886d03c52df5c1f2dd8753781ec03af3c2db7c33ebf29d5f2c0193d85",
     "docs/design_decisions.md": "aa74c9b9bdeff15eba36c1210e1b0a6bfb61c8078cadb6afe92a69042c436345",
     "docs/design_spec.md": "9149b32cffffc8ce348e14898afb748b776b3bbfd8defe5a9d461c113eaa9c9f",
-    "docs/fabrication_review.md": "f5b9cf6f2ba5c9dfcfcac3c44142824ead50930a4b6550a50a31cd4a4e70fff3",
+    "docs/fabrication_review.md": "3ea3f2e608e30ecfc9d8fe7b77440361e81f244cbe77f6aaa4b92c2cbd412938",
     "docs/fnk0099_footprint.md": "b451b620737ef7ab47c7771721c18266e4948ad0ffde9ba5503cdae2c4c0ace7",
     "docs/handoff.md": "90313afbd17394faa7d4857b64cdeb2f0a1885b196a9a4cbbfcc7b5caab06a80",
     "docs/jlcpcb_order_20260928.md": "4a5408689d00f0e45af755729c06c7f4c48e244a813fc677508baead5e84dd51",
@@ -305,5 +305,11 @@
       "check_routing",
       "check_route_lengths"
     ]
+  },
+  "publication": {
+    "repository": "https://github.com/otitbridge/gba-dumper-esp32-s3",
+    "branch": "main",
+    "initial_commit": "dff766035c589fe986bd2bf9e1148445d33679bf",
+    "initial_push_verified": true
   }
 }
