@@ -1,16 +1,21 @@
 {
-  "version": "0.11.1",
+  "version": "0.13.0",
   "distribution": "public-binary-development",
   "target": "WeAct ESP32S3-A N16R2 / project PCB V1 20260928",
   "esp_idf": "5.5.4",
   "factory_wifi_config": false,
   "private_ota_ca_embedded": false,
   "public_ota_start": false,
+  "usb_msc": true,
+  "usb_read_only": true,
+  "usb_rom_verification": "two reads per 4096-byte block",
+  "usb_web_cartridge_operations": "exclusive ownership; switch in Web UI",
+  "public_binary_hardware_tested": true,
   "setup_password": "device RNG after Wi-Fi start; persisted in NVS",
   "addresses": {
     "bootloader.bin": "0x0",
     "partition-table.bin": "0x8000",
-    "gba-dumper-0.11.1-public.bin": "0x10000",
+    "gba-dumper-0.13.0-public.bin": "0x10000",
     "ota-data-initial.bin": "0x210000"
   },
   "files": {
@@ -19,12 +24,12 @@
       "sha256": "d29e87d450a6c398c05b8babf873ff422b29ff02424c7007e381e28d158df557"
     },
     ".github/ISSUE_TEMPLATE/bug_report.md": {
-      "bytes": 452,
-      "sha256": "653b78226ef80be842a6c13a8adf02942811f04ad8fb1bdf53fc49c5d1c0340e"
+      "bytes": 591,
+      "sha256": "a8219b2cef82d89a7235dd4a6acab0d6977b34e7f80daca0374cef61ccebbc65"
     },
     "INSTALL.md": {
-      "bytes": 3243,
-      "sha256": "11fc6d8ab8e6b3d3b80fa657d917941f8bf8470b1d8e3f92a7796837116c77a6"
+      "bytes": 4384,
+      "sha256": "50be7f72920b47cf04f172682c4e2ac86daf98e0494ee5f0978bee0126702372"
     },
     "LICENSE.md": {
       "bytes": 849,
@@ -74,9 +79,17 @@
       "bytes": 1025,
       "sha256": "aeb05b2b76b72884a635b0e915bc469df89db94704f2833912d932d169484fc2"
     },
+    "LICENSES/TinyUSB-MIT.txt": {
+      "bytes": 1094,
+      "sha256": "f878d62e47e693ea64160218edb1b9b4755f4839a3179e5bef4a6b0359399431"
+    },
     "LICENSES/cJSON-MIT.txt": {
       "bytes": 1084,
       "sha256": "a36dda207c36db5818729c54e7ad4e8b0c6fba847491ba64f372c1a2037b6d5c"
+    },
+    "LICENSES/esp_tinyusb-Apache-2.0.txt": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
     },
     "LICENSES/lwIP-BSD.txt": {
       "bytes": 1425,
@@ -91,28 +104,32 @@
       "sha256": "17ccbcf4b17a910795292fb4a95f4742d2ecda37d06fcf20d60ffbd70cfbc609"
     },
     "README.md": {
-      "bytes": 4880,
-      "sha256": "fd77d57521f2ec212166c4e68427144c5e186a884fa3eb7e03f80a6b101229e3"
+      "bytes": 5600,
+      "sha256": "40095e3a92cf14d873b94b5be0fb0cf994f0d6bc8425f167de371f0e2fe29dea"
     },
     "RELEASE_NOTES.md": {
-      "bytes": 651,
-      "sha256": "798f3896ff9d0d6826637dc203f24c539e24755d643fd92c12e0a9a1110d68ba"
+      "bytes": 1708,
+      "sha256": "350c05595b4c22defec33478124153d5c95ad8301aaaee553b6d16deb9a394a2"
     },
     "THIRD_PARTY_NOTICES.md": {
-      "bytes": 1780,
-      "sha256": "d9bfa54b1ab033e5ed5efc181299b04ae23166a84232efc1f8b8cb078ee81180"
+      "bytes": 2009,
+      "sha256": "ee79df54e79977ad2dd505dfd69ddcae5ad1591275753ff162a5b169349c54df"
     },
     "USAGE.md": {
-      "bytes": 3020,
-      "sha256": "4e83e2feadeb9d9087083aa232538eedfb3e2b132b17b769363aa18dc68e11e6"
+      "bytes": 5674,
+      "sha256": "975e049b73fffb9f2f95f3d5983383b29564fae281cd7555137406749b4531cb"
+    },
+    "VALIDATION.md": {
+      "bytes": 2726,
+      "sha256": "7702d7145d28580ca5fa4ec34b74bbf1b9e943556ca72ec567fc24889b6538ef"
     },
     "firmware/bootloader.bin": {
       "bytes": 20912,
-      "sha256": "4b9f578c426317b88a2e055c98c95ddf576eaf3eaf3cab3cc5f6746c69bd832c"
+      "sha256": "6a0e0c615e1adac998c483a2ee993c63917f13a9cb9813751c46b6664e7da9e7"
     },
-    "firmware/gba-dumper-0.11.1-public.bin": {
-      "bytes": 939696,
-      "sha256": "e9128545803de3d8f5e34deae9562a6c825072239909b81da296c554726e4714"
+    "firmware/gba-dumper-0.13.0-public.bin": {
+      "bytes": 980528,
+      "sha256": "a4a1327fd15beaf8db4ff6095242fd36b4ee7fa5474cf277ce77ee75c53ded36"
     },
     "firmware/ota-data-initial.bin": {
       "bytes": 8192,
@@ -122,5 +139,9 @@
       "bytes": 3072,
       "sha256": "b1c2a0c68c29c2e0cf87bec934959617594a242325f2a6014b7bd65dd13c14c1"
     }
-  }
+  },
+  "hardware_test_scope": "Mac native USB and Wi-Fi Web; Cinnamon 4 MiB / EEPROM 512 B; existing NVS retained",
+  "fresh_nvs_setup_tested": false,
+  "public_binary_iphone_tested": false,
+  "public_binary_windows_tested": false
 }

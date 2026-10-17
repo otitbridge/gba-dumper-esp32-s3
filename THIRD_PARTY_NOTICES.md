@@ -13,6 +13,8 @@ The application and bootloader contain ESP-IDF v5.5.4 and its bundled components
 | wpa_supplicant / hostapd | ESP-IDF components/wpa_supplicant | wpa-supplicant-BSD.txt |
 | Newlib C library | ESP-IDF / Xtensa toolchain | Newlib-notices.txt |
 | GCC runtime / libstdc++ | Espressif Xtensa GCC 14.2.0 | GCC-GPL-3.0.txt, GCC-Runtime-Exception.txt |
+| TinyUSB 0.21.0~2 (MIT) | https://github.com/hathach/tinyusb | TinyUSB-MIT.txt |
+| esp_tinyusb 2.0.0 (Apache-2.0) | https://components.espressif.com/components/espressif/esp_tinyusb/versions/2.0.0 | esp_tinyusb-Apache-2.0.txt |
 | No-Intro game-code and ROM-size metadata | https://datomatic.no-intro.org/ | No-Intro.txt |
 
 The No-Intro catalog derives from the official Nintendo Game Boy Advance DAT version 20260929-130236. Its Data Usage License (2026-09-11) is available at https://datomatic.no-intro.org/terms.html . Game codes and ROM sizes are embedded; no game ROM, SAVE image, cartridge header, Libretro metadata or Dhole database is included.
