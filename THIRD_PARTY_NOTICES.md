@@ -1,23 +1,20 @@
-# Third-party notices
+# Third-party notices for the binary distribution
 
-## Gekkio cartridge socket footprint
+The application and bootloader contain ESP-IDF v5.5.4 and its bundled components. Original copyright notices and applicable terms are reproduced in LICENSES. The project MIT grant does not replace these terms.
 
-Author: Gekkio. Source: https://github.com/Gekkio/gekkio-kicad-libs
+| Component | Source | Included notice |
+|---|---|---|
+| ESP-IDF / Espressif Wi-Fi, PHY and coexistence libraries | https://github.com/espressif/esp-idf/tree/v5.5.4 | ESP-IDF-Apache-2.0.txt, Espressif-WiFi.txt, Espressif-PHY.txt, Espressif-Coexistence.txt |
+| FreeRTOS kernel | ESP-IDF components/freertos/FreeRTOS-Kernel | FreeRTOS-MIT.txt |
+| Mbed TLS | ESP-IDF components/mbedtls/mbedtls | mbedTLS-Apache-2.0.txt |
+| lwIP | ESP-IDF components/lwip/lwip | lwIP-BSD.txt |
+| cJSON | ESP-IDF components/json/cJSON | cJSON-MIT.txt |
+| HTTP Parser | ESP-IDF components/http_parser | HTTP-Parser-MIT.txt |
+| wpa_supplicant / hostapd | ESP-IDF components/wpa_supplicant | wpa-supplicant-BSD.txt |
+| Newlib C library | ESP-IDF / Xtensa toolchain | Newlib-notices.txt |
+| GCC runtime / libstdc++ | Espressif Xtensa GCC 14.2.0 | GCC-GPL-3.0.txt, GCC-Runtime-Exception.txt |
+| No-Intro game-code and ROM-size metadata | https://datomatic.no-intro.org/ | No-Intro.txt |
 
-`hardware/lib/Gekkio_Connector_PCBEdge.pretty/GameBoy_Cartridge_AGB_1x32_P1.50mm_Socket_Horizontal.kicad_mod` is redistributed unmodified under CC BY 4.0. Its placement within boards and rendered design outputs does not transfer ownership of the original library material. Attribution and hash: [docs/slot_footprint.md](docs/slot_footprint.md). License: [Gekkio-CC-BY-4.0.txt](hardware/lib/licenses/Gekkio-CC-BY-4.0.txt). Archived copies retain these same terms.
+The No-Intro catalog derives from the official Nintendo Game Boy Advance DAT version 20260929-130236. Its Data Usage License (2026-09-11) is available at https://datomatic.no-intro.org/terms.html . Game codes and ROM sizes are embedded; no game ROM, SAVE image, cartridge header, Libretro metadata or Dhole database is included.
 
-## KiCad libraries
-
-Copyright: KiCad library contributors. Source: https://github.com/KiCad/kicad-footprints
-
-KiCad standard footprints used or embedded in the design include 0805 resistors/capacitors, mounting holes and test points. The redistributed TestPoint_Pad_D2.0mm in GBA_Mechanical.pretty retains KiCad library terms. KiCad-derived library material and any modified copies retain CC BY-SA 4.0 with the KiCad library exception; project-level hardware licensing does not replace their terms. See [KiCad license and exception](hardware/lib/licenses/KiCad-LICENSE.md) and https://www.kicad.org/libraries/license/.
-
-## WeAct reference documents
-
-Source: https://github.com/WeActStudio/WeActStudio.ESP32S3-AorB
-
-Reference circuit and mechanical PDFs are vendor documents, not original project material. Public snapshots omit these PDFs pending redistribution review; source URLs and SHA-256 records remain under hardware/reference/weact. Obtain originals from the vendor.
-
-## External tools
-
-KiCad, Gerbonara, sharp, macOS Vision, Freerouting and KiCad's bundled QR library are external build/review dependencies. Their executables/source packages are not bundled here. Their licenses are not replaced by this project's licenses.
+No external hardware footprints, vendor reference PDFs, build-tool executables or source packages are bundled in this distribution. Historical design files retain their original notices in the corresponding historical commits.

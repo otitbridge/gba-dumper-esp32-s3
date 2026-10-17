@@ -1,0 +1,18 @@
+Third-party ROM metadata: No-Intro Data Usage License (2026-09-11)
+
+Source: Official No-Intro DAT-o-MATIC
+Terms: https://datomatic.no-intro.org/terms.html (Data Usage License section)
+Acquisition details and hashes: source.json
+
+This is a provenance summary, not a replacement for the official terms.
+The current terms permit copying, modifying, combining, publishing,
+redistributing and commercially using the covered data, without mandatory
+attribution or linking, to the extent that No-Intro owns or controls the
+relevant rights. Explicit dataset-specific terms and third-party rights remain
+applicable. The data is provided without warranty.
+
+nointro_gba.dat.gz preserves the official downloaded DAT and its author list.
+rom_sizes.bin is a compact transformation of its game codes and ROM sizes.
+The project's MIT license does not replace the terms of these imported files.
+The original conversion tools and independently verified save profile are
+original project contributions under the project's software MIT license.
