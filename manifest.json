@@ -112,8 +112,8 @@
       "sha256": "17ccbcf4b17a910795292fb4a95f4742d2ecda37d06fcf20d60ffbd70cfbc609"
     },
     "README.md": {
-      "bytes": 6242,
-      "sha256": "1c3046cad6eb4686ea243f9f4a56d9a71735b49e3957cb39d832f888206c5668"
+      "bytes": 6422,
+      "sha256": "06df4ac5fa912a1036a9165f9595b32ed0cdb353d7e4f740616b0058475baa55"
     },
     "RELEASE_NOTES.md": {
       "bytes": 3328,
@@ -132,8 +132,8 @@
       "sha256": "15054a40d982b63adbdf4629efeef08247b251b86bc60ff0cad12f3e15b26761"
     },
     "VALIDATION.md": {
-      "bytes": 5854,
-      "sha256": "a541fbf9ab5916c64093d6cdaf43b98ae7163bd46f7c01fbe15e85fb37187ed6"
+      "bytes": 6678,
+      "sha256": "3f31c316b702341b30c3df3287f282087e3d7b3ff4177492a814dfc43a9d9877"
     },
     "firmware/bootloader.bin": {
       "bytes": 20912,
@@ -181,5 +181,12 @@
   "github_ota_hardware_tested": false,
   "usb_0152_samples_hardware_tested": false,
   "public_application_hardware_test": "0.15.2 version-only release prepared for iPhone update test; not installed or verified on hardware yet",
-  "previous_verified_version": "0.15.1"
+  "previous_verified_version": "0.15.1",
+  "iphone_file_selection_ota": {
+    "target_version": "0.15.1",
+    "operation": "downgrade",
+    "result": "user-reported success following documented procedure",
+    "date": "2026-10-19",
+    "post_update_rom_save_reverification": false
+  }
 }
