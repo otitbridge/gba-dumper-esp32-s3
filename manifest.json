@@ -112,8 +112,8 @@
       "sha256": "17ccbcf4b17a910795292fb4a95f4742d2ecda37d06fcf20d60ffbd70cfbc609"
     },
     "README.md": {
-      "bytes": 6013,
-      "sha256": "9619d18fc57051f1fe1a5f6fdbf716df3c11bc935ac5068de040e0796246206e"
+      "bytes": 6101,
+      "sha256": "d9baa9db1da625ac12f97185890c9d8fbcca806f89e2bea5a29945e71f84a5f3"
     },
     "RELEASE_NOTES.md": {
       "bytes": 2704,
@@ -132,8 +132,8 @@
       "sha256": "15054a40d982b63adbdf4629efeef08247b251b86bc60ff0cad12f3e15b26761"
     },
     "VALIDATION.md": {
-      "bytes": 4095,
-      "sha256": "ac4f4dfbaee68a8d60763978bad15989644d09bdabcc7ecfc65f80502d1be406"
+      "bytes": 4740,
+      "sha256": "154dab1e5cc7e216fa51fc3e09da31553b82a1536c76e39e60cf37abc3d9cc73"
     },
     "firmware/bootloader.bin": {
       "bytes": 20912,
@@ -169,5 +169,9 @@
   "uart_https_ota_start": false,
   "github_ota": true,
   "github_ota_channel": "firmware/update.json",
-  "public_application_hardware_test": "0.15.1 GitHub download/install awaiting verification; 0.15.0 file OTA verified"
+  "public_application_hardware_test": "0.15.0 to 0.15.1 device-side public GitHub HTTPS download/install/confirmation verified",
+  "github_ota_hardware_tested": true,
+  "github_ota_download_to_confirmed_seconds": 23.659,
+  "public_ota_start_scope": "legacy UART HTTPS command only",
+  "usb_0151_samples_hardware_tested": true
 }
