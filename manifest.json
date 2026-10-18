@@ -112,8 +112,8 @@
       "sha256": "17ccbcf4b17a910795292fb4a95f4742d2ecda37d06fcf20d60ffbd70cfbc609"
     },
     "README.md": {
-      "bytes": 6422,
-      "sha256": "06df4ac5fa912a1036a9165f9595b32ed0cdb353d7e4f740616b0058475baa55"
+      "bytes": 7036,
+      "sha256": "ea81d7791fb6aec9f1b05032387ca19dae001d155f2c7d1b9c4b8d6a7fcb2d9e"
     },
     "RELEASE_NOTES.md": {
       "bytes": 3328,
@@ -134,6 +134,10 @@
     "VALIDATION.md": {
       "bytes": 6678,
       "sha256": "3f31c316b702341b30c3df3287f282087e3d7b3ff4177492a814dfc43a9d9877"
+    },
+    "docs/images/gba-dumper-smartphone.jpg": {
+      "bytes": 242752,
+      "sha256": "0dee0d8c26f294459e7edfcb2a618f763bd6db63dbe245b9716751a305a46784"
     },
     "firmware/bootloader.bin": {
       "bytes": 20912,
