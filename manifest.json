@@ -1,5 +1,5 @@
 {
-  "version": "0.15.1",
+  "version": "0.15.2",
   "distribution": "public-binary-development",
   "target": "WeAct ESP32S3-A N16R2 / project PCB V1 20260928",
   "esp_idf": "5.5.4",
@@ -15,7 +15,7 @@
   "addresses": {
     "bootloader.bin": "0x0",
     "partition-table.bin": "0x8000",
-    "gba-dumper-0.15.1-public.bin": "0x10000",
+    "gba-dumper-0.15.2-public.bin": "0x10000",
     "ota-data-initial.bin": "0x210000"
   },
   "files": {
@@ -29,7 +29,7 @@
     },
     "INSTALL.md": {
       "bytes": 4717,
-      "sha256": "d874bce53773517f778eabac3a41527b2ca7b68478d26daeffc8311dd6a8d4ef"
+      "sha256": "aeacf92eb0dc493043a340844b7356e66f42edff5fa8586faf5dc12a29810912"
     },
     "LICENSE.md": {
       "bytes": 849,
@@ -112,12 +112,12 @@
       "sha256": "17ccbcf4b17a910795292fb4a95f4742d2ecda37d06fcf20d60ffbd70cfbc609"
     },
     "README.md": {
-      "bytes": 6101,
-      "sha256": "d9baa9db1da625ac12f97185890c9d8fbcca806f89e2bea5a29945e71f84a5f3"
+      "bytes": 6242,
+      "sha256": "1c3046cad6eb4686ea243f9f4a56d9a71735b49e3957cb39d832f888206c5668"
     },
     "RELEASE_NOTES.md": {
-      "bytes": 2704,
-      "sha256": "510bfeff3b7ee56b8994186d90eeb31579031b9e92b9005a59bd8cde2350acbb"
+      "bytes": 3328,
+      "sha256": "d8961b6b47ad7eea81253a8e6d80d68b518ecb2afb7bc31a307dfc24e434dad3"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2783,
@@ -132,8 +132,8 @@
       "sha256": "15054a40d982b63adbdf4629efeef08247b251b86bc60ff0cad12f3e15b26761"
     },
     "VALIDATION.md": {
-      "bytes": 4740,
-      "sha256": "154dab1e5cc7e216fa51fc3e09da31553b82a1536c76e39e60cf37abc3d9cc73"
+      "bytes": 5854,
+      "sha256": "a541fbf9ab5916c64093d6cdaf43b98ae7163bd46f7c01fbe15e85fb37187ed6"
     },
     "firmware/bootloader.bin": {
       "bytes": 20912,
@@ -151,6 +151,14 @@
       "bytes": 1174624,
       "sha256": "d532b9bb5f784edf3bb712e021061f4b58af1eeb421b2ea39ff664ca145649b7"
     },
+    "firmware/gba-dumper-0.15.2-public.bin": {
+      "bytes": 1174048,
+      "sha256": "2f464de1c5fc767666eecbf84389ef1b9e1cb0908b7f0f69d49c80ddeb241944"
+    },
+    "firmware/gba-dumper-0.15.2-public.ota.bin": {
+      "bytes": 1174624,
+      "sha256": "66676bee04e3f0bf572be5c75c6e1536dd6c525d0d38fdc81cd80c887c253ba4"
+    },
     "firmware/ota-data-initial.bin": {
       "bytes": 8192,
       "sha256": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f"
@@ -161,17 +169,17 @@
     },
     "firmware/update.json": {
       "bytes": 307,
-      "sha256": "fd54adc12978856a8bcab89771759b033c1b1acd20ff12c56e8d5ec15ea41914"
+      "sha256": "20880cc828df95dad0a25dda0f1a1a9c62700564d307f4b73116bb82554cb7f5"
     }
   },
   "web_ota": true,
   "web_ota_signature": "RSA-3072 PSS SHA-256; enrolled firmware key",
   "uart_https_ota_start": false,
+  "public_ota_start_scope": "legacy UART HTTPS command only",
   "github_ota": true,
   "github_ota_channel": "firmware/update.json",
-  "public_application_hardware_test": "0.15.0 to 0.15.1 device-side public GitHub HTTPS download/install/confirmation verified",
-  "github_ota_hardware_tested": true,
-  "github_ota_download_to_confirmed_seconds": 23.659,
-  "public_ota_start_scope": "legacy UART HTTPS command only",
-  "usb_0151_samples_hardware_tested": true
+  "github_ota_hardware_tested": false,
+  "usb_0152_samples_hardware_tested": false,
+  "public_application_hardware_test": "0.15.2 version-only release prepared for iPhone update test; not installed or verified on hardware yet",
+  "previous_verified_version": "0.15.1"
 }
