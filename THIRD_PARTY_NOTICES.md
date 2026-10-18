@@ -20,3 +20,9 @@ The application and bootloader contain ESP-IDF v5.5.4 and its bundled components
 The No-Intro catalog derives from the official Nintendo Game Boy Advance DAT version 20260929-130236. Its Data Usage License (2026-09-11) is available at https://datomatic.no-intro.org/terms.html . Game codes and ROM sizes are embedded; no game ROM, SAVE image, cartridge header, Libretro metadata or Dhole database is included.
 
 No external hardware footprints, vendor reference PDFs, build-tool executables or source packages are bundled in this distribution. Historical design files retain their original notices in the corresponding historical commits.
+
+## Public CA certificate data for HTTPS
+
+The ESP-IDF certificate bundle uses Mozilla CA data converted by curl (source date 2025-02-25), under MPL 2.0. The exact, unmodified PEM input is included as `LICENSES/Mozilla-CA-source.pem`; the license text is `LICENSES/Mozilla-MPL-2.0.txt`. The corresponding bundle generator is available in ESP-IDF v5.5.4 `components/mbedtls/esp_crt_bundle`. These files contain public CA certificates, not developer credentials or enrollment keys.
+
+Sources: https://curl.se/docs/caextract.html and https://github.com/espressif/esp-idf/blob/v5.5.4/components/mbedtls/esp_crt_bundle/cacrt_all.pem . This third-party certificate data is provided under its own terms; it does not replace the existing notices for the project and other components.

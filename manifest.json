@@ -1,5 +1,5 @@
 {
-  "version": "0.13.0",
+  "version": "0.15.1",
   "distribution": "public-binary-development",
   "target": "WeAct ESP32S3-A N16R2 / project PCB V1 20260928",
   "esp_idf": "5.5.4",
@@ -10,12 +10,12 @@
   "usb_read_only": true,
   "usb_rom_verification": "two reads per 4096-byte block",
   "usb_web_cartridge_operations": "exclusive ownership; switch in Web UI",
-  "public_binary_hardware_tested": true,
+  "public_binary_hardware_tested": false,
   "setup_password": "device RNG after Wi-Fi start; persisted in NVS",
   "addresses": {
     "bootloader.bin": "0x0",
     "partition-table.bin": "0x8000",
-    "gba-dumper-0.13.0-public.bin": "0x10000",
+    "gba-dumper-0.15.1-public.bin": "0x10000",
     "ota-data-initial.bin": "0x210000"
   },
   "files": {
@@ -28,8 +28,8 @@
       "sha256": "a8219b2cef82d89a7235dd4a6acab0d6977b34e7f80daca0374cef61ccebbc65"
     },
     "INSTALL.md": {
-      "bytes": 4384,
-      "sha256": "50be7f72920b47cf04f172682c4e2ac86daf98e0494ee5f0978bee0126702372"
+      "bytes": 4717,
+      "sha256": "d874bce53773517f778eabac3a41527b2ca7b68478d26daeffc8311dd6a8d4ef"
     },
     "LICENSE.md": {
       "bytes": 849,
@@ -71,6 +71,14 @@
       "bytes": 1080,
       "sha256": "37e080e8b52fbd97d8509928e8ace6e9c5ed36a5efa95cc588d9a9637e20d409"
     },
+    "LICENSES/Mozilla-CA-source.pem": {
+      "bytes": 233263,
+      "sha256": "50a6277ec69113f00c5fd45f09e8b97a4b3e32daa35d3a95ab30137a55386cef"
+    },
+    "LICENSES/Mozilla-MPL-2.0.txt": {
+      "bytes": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
     "LICENSES/Newlib-notices.txt": {
       "bytes": 46295,
       "sha256": "0681089a556e93791da82718d68011ba452de245f7f59c3846936304756ac0c0"
@@ -104,24 +112,28 @@
       "sha256": "17ccbcf4b17a910795292fb4a95f4742d2ecda37d06fcf20d60ffbd70cfbc609"
     },
     "README.md": {
-      "bytes": 5600,
-      "sha256": "40095e3a92cf14d873b94b5be0fb0cf994f0d6bc8425f167de371f0e2fe29dea"
+      "bytes": 6013,
+      "sha256": "9619d18fc57051f1fe1a5f6fdbf716df3c11bc935ac5068de040e0796246206e"
     },
     "RELEASE_NOTES.md": {
-      "bytes": 1708,
-      "sha256": "350c05595b4c22defec33478124153d5c95ad8301aaaee553b6d16deb9a394a2"
+      "bytes": 2704,
+      "sha256": "510bfeff3b7ee56b8994186d90eeb31579031b9e92b9005a59bd8cde2350acbb"
     },
     "THIRD_PARTY_NOTICES.md": {
-      "bytes": 2009,
-      "sha256": "ee79df54e79977ad2dd505dfd69ddcae5ad1591275753ff162a5b169349c54df"
+      "bytes": 2783,
+      "sha256": "b1deb153e04a69e9bfc2e31d4d2178433a11888e2da932f6325441cf37d52291"
+    },
+    "UPDATE.md": {
+      "bytes": 3593,
+      "sha256": "b3de2fd0150a34dd9241a9080441f8633b4e3d5dd28d68db61ef4253061f5b58"
     },
     "USAGE.md": {
-      "bytes": 5674,
-      "sha256": "975e049b73fffb9f2f95f3d5983383b29564fae281cd7555137406749b4531cb"
+      "bytes": 5928,
+      "sha256": "15054a40d982b63adbdf4629efeef08247b251b86bc60ff0cad12f3e15b26761"
     },
     "VALIDATION.md": {
-      "bytes": 2726,
-      "sha256": "7702d7145d28580ca5fa4ec34b74bbf1b9e943556ca72ec567fc24889b6538ef"
+      "bytes": 4095,
+      "sha256": "ac4f4dfbaee68a8d60763978bad15989644d09bdabcc7ecfc65f80502d1be406"
     },
     "firmware/bootloader.bin": {
       "bytes": 20912,
@@ -131,6 +143,14 @@
       "bytes": 980528,
       "sha256": "a4a1327fd15beaf8db4ff6095242fd36b4ee7fa5474cf277ce77ee75c53ded36"
     },
+    "firmware/gba-dumper-0.15.1-public.bin": {
+      "bytes": 1174048,
+      "sha256": "dbe0259a8821ad4419a489cf70a367ed06d9937975cbba58c6d550a1f1ef22b9"
+    },
+    "firmware/gba-dumper-0.15.1-public.ota.bin": {
+      "bytes": 1174624,
+      "sha256": "d532b9bb5f784edf3bb712e021061f4b58af1eeb421b2ea39ff664ca145649b7"
+    },
     "firmware/ota-data-initial.bin": {
       "bytes": 8192,
       "sha256": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f"
@@ -138,10 +158,16 @@
     "firmware/partition-table.bin": {
       "bytes": 3072,
       "sha256": "b1c2a0c68c29c2e0cf87bec934959617594a242325f2a6014b7bd65dd13c14c1"
+    },
+    "firmware/update.json": {
+      "bytes": 307,
+      "sha256": "fd54adc12978856a8bcab89771759b033c1b1acd20ff12c56e8d5ec15ea41914"
     }
   },
-  "hardware_test_scope": "Mac native USB and Wi-Fi Web; Cinnamon 4 MiB / EEPROM 512 B; existing NVS retained",
-  "fresh_nvs_setup_tested": false,
-  "public_binary_iphone_tested": false,
-  "public_binary_windows_tested": false
+  "web_ota": true,
+  "web_ota_signature": "RSA-3072 PSS SHA-256; enrolled firmware key",
+  "uart_https_ota_start": false,
+  "github_ota": true,
+  "github_ota_channel": "firmware/update.json",
+  "public_application_hardware_test": "0.15.1 GitHub download/install awaiting verification; 0.15.0 file OTA verified"
 }

@@ -1,4 +1,4 @@
-# 書込みと初回接続（0.13.0 public build）
+# 書込みと初回接続（0.15.1 public build）
 
 対象はWeAct ESP32S3-A N16R2（16 MiB flash）と本プロジェクトのGBA用基板V1（20260928）です。ESP32-S3一般や別配線には使用できません。
 
@@ -14,7 +14,7 @@
 配布ディレクトリで実行します：
 
 ```sh
-python -m esptool --chip esp32s3 --port PORT --baud 115200 --before no-reset --after no-reset write-flash --flash-mode dio --flash-freq 40m --flash-size 16MB 0x0 firmware/bootloader.bin 0x8000 firmware/partition-table.bin 0x10000 firmware/gba-dumper-0.13.0-public.bin 0x210000 firmware/ota-data-initial.bin
+python -m esptool --chip esp32s3 --port PORT --baud 115200 --before no-reset --after no-reset write-flash --flash-mode dio --flash-freq 40m --flash-size 16MB 0x0 firmware/bootloader.bin 0x8000 firmware/partition-table.bin 0x10000 firmware/gba-dumper-0.15.1-public.bin 0x210000 firmware/ota-data-initial.bin
 ```
 
 UART側USBでも手動BOOT／RESETで書込みモードへ入り、同じコマンドを使えます。UARTの通常自動リセットを使う場合は`--before default-reset`へ変更します。接続・書込み・ハッシュ照合が失敗した場合は正常導入済みとは扱いません。
@@ -36,4 +36,8 @@ UART側USBでも手動BOOT／RESETで書込みモードへ入り、同じコマ�
 3. iPhone／PCを機器のWi-Fiへ接続し、通常は `http://192.168.4.1/` を開きます。別ネットワークとの競合時は `192.168.5.1` の場合もあり、UARTの`WEB_READY`で確認します。インターネット接続がなくても機器との接続を維持します。
 4. Webで2.4 GHzのWi-Fiを検索し、接続先のSSID・パスワードを設定します。成功した設定だけ保存し、次回起動でも使用します。DHCPのIPは固定ではありません。NVSのWi-Fi設定は現状暗号化していません。
 
-パスワードは機器内のRNGで生成し、NVSへ保存します。開発者共通のSSID・パスワード・OTA認証局は配布バイナリに含みません。初回生成と消去済みNVSからの設定手順の確認状況は[検証結果](VALIDATION.md)を参照。公開版はOTA開始を無効にし、有線書込みで更新します。
+パスワードは機器内のRNGで生成し、NVSへ保存します。開発者共通のSSID・パスワード・OTA認証局は配布バイナリに含みません。初回生成と消去済みNVSからの設定手順の確認状況は[検証結果](VALIDATION.md)を参照。対応版導入後は[Web更新](UPDATE.md)を利用できます。UART指令による旧OTA開始は無効です。
+
+## 導入済み機器の通常更新
+
+0.14系以降は原則として[Web更新](UPDATE.md)を使います。4本セットの有線書込みは初回導入・構成移行・復旧用です。Web更新画面へブートローダーやパーティション表を送らないでください。
