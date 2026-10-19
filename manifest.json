@@ -10,7 +10,7 @@
   "usb_read_only": true,
   "usb_rom_verification": "two reads per 4096-byte block",
   "usb_web_cartridge_operations": "exclusive ownership; switch in Web UI",
-  "public_binary_hardware_tested": false,
+  "public_binary_hardware_tested": true,
   "setup_password": "device RNG after Wi-Fi start; persisted in NVS",
   "addresses": {
     "bootloader.bin": "0x0",
@@ -112,12 +112,12 @@
       "sha256": "17ccbcf4b17a910795292fb4a95f4742d2ecda37d06fcf20d60ffbd70cfbc609"
     },
     "README.md": {
-      "bytes": 7050,
-      "sha256": "7af615ed80d46ed152fe6c0978b001701c5d80bf66d2605002927925c0e2a3a1"
+      "bytes": 7128,
+      "sha256": "8b885437667a505fe45ab261435dd21be1af1c11148a986dee8f9e16f109caaa"
     },
     "RELEASE_NOTES.md": {
-      "bytes": 4355,
-      "sha256": "5dea707b4521aaf835f5dba4d5e81f55bfe2799fef9e79e5a4271c86a2ccfca2"
+      "bytes": 4421,
+      "sha256": "95e8ac721f0bfb16855fe856de1747d91aaf2fed0be0c9622bac5fd7c91f61b6"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2783,
@@ -132,8 +132,8 @@
       "sha256": "e437b5037b38945edc6d7637732454fa9b444bed0b3dbb7bc56e5c0a86699d28"
     },
     "VALIDATION.md": {
-      "bytes": 8530,
-      "sha256": "c5c347db0aa3fff702537b7dbcc8ad5bc9ba22864b9c3cc86a1699c38694de13"
+      "bytes": 9133,
+      "sha256": "39db016cebd46fd292d4152154d57bb069a365ac902c4f56aed9eb1d078bbc4c"
     },
     "docs/images/gba-dumper-smartphone.jpg": {
       "bytes": 242752,
@@ -185,5 +185,6 @@
     }
   },
   "web_ota": true,
-  "web_ota_signature": "RSA-3072 PSS SHA-256; enrolled firmware key"
+  "web_ota_signature": "RSA-3072 PSS SHA-256; enrolled firmware key",
+  "hardware_test_scope": "physical iPhone Safari GitHub OTA to 0.16.2; confirmed ELF; ROM three 4KiB samples and original 32KiB SRAM two full reads; no save writes; initial wired installation and native USB not retested"
 }
