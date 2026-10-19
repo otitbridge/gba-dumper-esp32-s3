@@ -1,5 +1,5 @@
 {
-  "version": "0.15.2",
+  "version": "0.16.2",
   "distribution": "public-binary-development",
   "target": "WeAct ESP32S3-A N16R2 / project PCB V1 20260928",
   "esp_idf": "5.5.4",
@@ -15,7 +15,7 @@
   "addresses": {
     "bootloader.bin": "0x0",
     "partition-table.bin": "0x8000",
-    "gba-dumper-0.15.2-public.bin": "0x10000",
+    "gba-dumper-0.16.2-public.bin": "0x10000",
     "ota-data-initial.bin": "0x210000"
   },
   "files": {
@@ -29,7 +29,7 @@
     },
     "INSTALL.md": {
       "bytes": 4717,
-      "sha256": "aeacf92eb0dc493043a340844b7356e66f42edff5fa8586faf5dc12a29810912"
+      "sha256": "63b35ee51c50c16f7b51625b60faad8080588e774cbb520bc885208bc4cc278f"
     },
     "LICENSE.md": {
       "bytes": 849,
@@ -112,28 +112,28 @@
       "sha256": "17ccbcf4b17a910795292fb4a95f4742d2ecda37d06fcf20d60ffbd70cfbc609"
     },
     "README.md": {
-      "bytes": 7036,
-      "sha256": "ea81d7791fb6aec9f1b05032387ca19dae001d155f2c7d1b9c4b8d6a7fcb2d9e"
+      "bytes": 7050,
+      "sha256": "7af615ed80d46ed152fe6c0978b001701c5d80bf66d2605002927925c0e2a3a1"
     },
     "RELEASE_NOTES.md": {
-      "bytes": 3328,
-      "sha256": "d8961b6b47ad7eea81253a8e6d80d68b518ecb2afb7bc31a307dfc24e434dad3"
+      "bytes": 4355,
+      "sha256": "5dea707b4521aaf835f5dba4d5e81f55bfe2799fef9e79e5a4271c86a2ccfca2"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2783,
       "sha256": "b1deb153e04a69e9bfc2e31d4d2178433a11888e2da932f6325441cf37d52291"
     },
     "UPDATE.md": {
-      "bytes": 3593,
-      "sha256": "b3de2fd0150a34dd9241a9080441f8633b4e3d5dd28d68db61ef4253061f5b58"
+      "bytes": 3492,
+      "sha256": "74a6aec7d0e8a8eddfc268b4413215b8947ba5f8e6a853a979cb7fad5e6e3f39"
     },
     "USAGE.md": {
-      "bytes": 5928,
-      "sha256": "15054a40d982b63adbdf4629efeef08247b251b86bc60ff0cad12f3e15b26761"
+      "bytes": 6680,
+      "sha256": "e437b5037b38945edc6d7637732454fa9b444bed0b3dbb7bc56e5c0a86699d28"
     },
     "VALIDATION.md": {
-      "bytes": 6678,
-      "sha256": "3f31c316b702341b30c3df3287f282087e3d7b3ff4177492a814dfc43a9d9877"
+      "bytes": 8530,
+      "sha256": "c5c347db0aa3fff702537b7dbcc8ad5bc9ba22864b9c3cc86a1699c38694de13"
     },
     "docs/images/gba-dumper-smartphone.jpg": {
       "bytes": 242752,
@@ -141,7 +141,7 @@
     },
     "firmware/bootloader.bin": {
       "bytes": 20912,
-      "sha256": "6a0e0c615e1adac998c483a2ee993c63917f13a9cb9813751c46b6664e7da9e7"
+      "sha256": "f015042f941f3fed1580d86faad84ca8118620ab50eaa9320ee568e36da7f178"
     },
     "firmware/gba-dumper-0.13.0-public.bin": {
       "bytes": 980528,
@@ -163,6 +163,14 @@
       "bytes": 1174624,
       "sha256": "66676bee04e3f0bf572be5c75c6e1536dd6c525d0d38fdc81cd80c887c253ba4"
     },
+    "firmware/gba-dumper-0.16.2-public.bin": {
+      "bytes": 1185312,
+      "sha256": "cc60088b43bb1675735b6803b6e7cc702e2e17b0093344d51e20e94c9fa33f79"
+    },
+    "firmware/gba-dumper-0.16.2-public.ota.bin": {
+      "bytes": 1185888,
+      "sha256": "1ac20f9c3df92a9ba0b26e41f45ebb42a4fdecab28bfbfa1a9e92cb19ff35a5c"
+    },
     "firmware/ota-data-initial.bin": {
       "bytes": 8192,
       "sha256": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f"
@@ -173,24 +181,9 @@
     },
     "firmware/update.json": {
       "bytes": 307,
-      "sha256": "20880cc828df95dad0a25dda0f1a1a9c62700564d307f4b73116bb82554cb7f5"
+      "sha256": "22bde3f967228d5e9b0c6a70e0e6e0640a280f1a117aec5dbc014f998eee8ae6"
     }
   },
   "web_ota": true,
-  "web_ota_signature": "RSA-3072 PSS SHA-256; enrolled firmware key",
-  "uart_https_ota_start": false,
-  "public_ota_start_scope": "legacy UART HTTPS command only",
-  "github_ota": true,
-  "github_ota_channel": "firmware/update.json",
-  "github_ota_hardware_tested": false,
-  "usb_0152_samples_hardware_tested": false,
-  "public_application_hardware_test": "0.15.2 version-only release prepared for iPhone update test; not installed or verified on hardware yet",
-  "previous_verified_version": "0.15.1",
-  "iphone_file_selection_ota": {
-    "target_version": "0.15.1",
-    "operation": "downgrade",
-    "result": "user-reported success following documented procedure",
-    "date": "2026-10-19",
-    "post_update_rom_save_reverification": false
-  }
+  "web_ota_signature": "RSA-3072 PSS SHA-256; enrolled firmware key"
 }
