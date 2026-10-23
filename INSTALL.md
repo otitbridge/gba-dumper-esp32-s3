@@ -1,4 +1,4 @@
-# 書込みと初回接続（0.21.1 public build）
+# 書込みと初回接続（0.22.4 public build）
 
 対象はWeAct ESP32S3-A N16R2（16 MiB flash）と本プロジェクトのGBA用基板V1（20260928）です。ESP32-S3一般や別配線には使用できません。
 
@@ -14,7 +14,7 @@
 配布ディレクトリで実行します：
 
 ```sh
-python -m esptool --chip esp32s3 --port PORT --baud 115200 --before no-reset --after no-reset write-flash --flash-mode dio --flash-freq 40m --flash-size 16MB 0x0 firmware/bootloader.bin 0x8000 firmware/partition-table.bin 0x10000 firmware/gba-dumper-0.21.1-public.bin 0x210000 firmware/ota-data-initial.bin
+python -m esptool --chip esp32s3 --port PORT --baud 115200 --before no-reset --after no-reset write-flash --flash-mode dio --flash-freq 40m --flash-size 16MB 0x0 firmware/bootloader.bin 0x8000 firmware/partition-table.bin 0x10000 firmware/gba-dumper-0.22.4-public.bin 0x210000 firmware/ota-data-initial.bin
 ```
 
 UART側USBでも手動BOOT／RESETで書込みモードへ入り、同じコマンドを使えます。UARTの通常自動リセットを使う場合は`--before default-reset`へ変更します。接続・書込み・ハッシュ照合が失敗した場合は正常導入済みとは扱いません。
