@@ -1,5 +1,5 @@
 {
-  "version": "0.22.4",
+  "version": "0.25.4",
   "distribution": "public-binary-development",
   "target": "WeAct ESP32S3-A N16R2 / project PCB V1 20260928",
   "esp_idf": "5.5.4",
@@ -15,7 +15,7 @@
   "addresses": {
     "bootloader.bin": "0x0",
     "partition-table.bin": "0x8000",
-    "gba-dumper-0.22.4-public.bin": "0x10000",
+    "gba-dumper-0.25.4-public.bin": "0x10000",
     "ota-data-initial.bin": "0x210000"
   },
   "files": {
@@ -29,7 +29,7 @@
     },
     "INSTALL.md": {
       "bytes": 4717,
-      "sha256": "2d0f1f458da6d154ae63d951018e28786e52e60eb300003545c760beb8ee5cde"
+      "sha256": "f597ae1930093545bd7cabda4b1992651895df7f2b8b06ea47f5537e1c68d090"
     },
     "LICENSE.md": {
       "bytes": 849,
@@ -112,28 +112,28 @@
       "sha256": "17ccbcf4b17a910795292fb4a95f4742d2ecda37d06fcf20d60ffbd70cfbc609"
     },
     "README.md": {
-      "bytes": 8261,
-      "sha256": "fe9b9a1097ac8ee37e61fb4395a295aeb6fb3a83b766d7fc3df714ea3b92be10"
+      "bytes": 9416,
+      "sha256": "ee532de3c949ee39b2c7b665bef7c777f2dcdc35023063b3c8bbdc1d7717734f"
     },
     "RELEASE_NOTES.md": {
-      "bytes": 7349,
-      "sha256": "7e4ddeaff2b60bd9b8defb3be6071b6d7231ac7182ff5d9e645f0b0b1cfe89e4"
+      "bytes": 8673,
+      "sha256": "da0cd4de3d11d87bbdd4c078d27999a6ae0dfca8b6272e189c78687b7067a626"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2783,
       "sha256": "b1deb153e04a69e9bfc2e31d4d2178433a11888e2da932f6325441cf37d52291"
     },
     "UPDATE.md": {
-      "bytes": 3492,
-      "sha256": "434e9a2452e517c100715c60e4bf7e2c26a8b622dd58b6cf53296a8721dc0f4f"
+      "bytes": 3790,
+      "sha256": "658ba753f368643855450392218b22c8ab1b2c3d7141dd625267e34e75924a71"
     },
     "USAGE.md": {
-      "bytes": 7860,
-      "sha256": "4aa0edb49bb19316b232bb79dc9f3ee5bd3ebbfa8706d041cbe974dad6a3e736"
+      "bytes": 7256,
+      "sha256": "598fdf311d0a80ea5e2bf5eede8c214b7295e1758ae81379be425fcb38033069"
     },
     "VALIDATION.md": {
-      "bytes": 16872,
-      "sha256": "6086d1b767d4f188e741f7a23ad2ca03005315ac5190aecdc08848788d714b43"
+      "bytes": 20855,
+      "sha256": "2cd3e8c953566fd2a39434815b873a6239427148cf90d77dc56dd4fe73a7d69d"
     },
     "docs/images/gba-dumper-smartphone.jpg": {
       "bytes": 242752,
@@ -141,7 +141,7 @@
     },
     "firmware/bootloader.bin": {
       "bytes": 20912,
-      "sha256": "c8e0d326103506ba2cec40a71f26302c3c89414361a3fca9b4371d703ea0b616"
+      "sha256": "28b4bd350baa8dc447fc65ee1f8ca112e34f11c13ebbdc159401886371729320"
     },
     "firmware/gba-dumper-0.13.0-public.bin": {
       "bytes": 980528,
@@ -187,6 +187,14 @@
       "bytes": 1216928,
       "sha256": "95abf62b17b7cc0cd6dee98b4345bf76a4b2f7735eb706917fd0c4aed3ef8410"
     },
+    "firmware/gba-dumper-0.25.4-public.bin": {
+      "bytes": 1231344,
+      "sha256": "8139ecc74e31be64da77dc5fa77c69d69850919ccb7151f57912989374c2acc4"
+    },
+    "firmware/gba-dumper-0.25.4-public.ota.bin": {
+      "bytes": 1231920,
+      "sha256": "02d3f88176b164f44f57ca469d3902ade22750008eeba49fe602bfb3a6487ba4"
+    },
     "firmware/ota-data-initial.bin": {
       "bytes": 8192,
       "sha256": "7d2c7ac4888bfd75cd5f56e8d61f69595121183afc81556c876732fd3782c62f"
@@ -197,21 +205,28 @@
     },
     "firmware/update.json": {
       "bytes": 307,
-      "sha256": "44ae6de100d4123fa5e8da5307d44d685b8f775b72a9a55c4a548a26a2d1fee3"
+      "sha256": "a4e5f54349623b51166894542c9ae0d48500343dd21c97dd1a97fbf7255e4517"
     }
   },
   "web_ota": true,
   "web_ota_signature": "RSA-3072 PSS SHA-256; enrolled firmware key",
   "public_application_validation": {
-    "version": "0.22.4",
-    "application_sha256": "57e929f728062bc7861b23c1a13691aba7b3ae33be9380d31ec622d28be6df5e",
-    "elf_sha256": "b75e5a52a4f9161223e3f167ac7a4553723d799d26575fa2d5a559371fb1985b",
+    "version": "0.25.4",
+    "application_sha256": "8139ecc74e31be64da77dc5fa77c69d69850919ccb7151f57912989374c2acc4",
+    "elf_sha256": "bba204dcec6c1dd011fa5870e89df1902151b700644f3798cc3135c666ef9c87",
     "application_only_UART_install": true,
-    "Mac_browser_Ruby_write_restore": true,
+    "Mac_browser_connection_trials": 30,
+    "Mac_browser_connection_successes": 30,
+    "immediate_reconnect_mean_ms": 184.489,
+    "ROM32MiB_HTTP_concurrency_original_match": true,
+    "save_original_preserved": true,
     "four_binary_install_tested": false,
-    "signed_OTA_package_install_tested": false,
+    "signed_OTA_package_install_tested": true,
     "current_version_USB_full_read_tested": false,
-    "details": "VALIDATION.md"
+    "initial_Web_connection_timeout_unresolved": false,
+    "details": "VALIDATION.md",
+    "public_stage_OTA_confirmed_seconds": 19.84572633402422,
+    "public_stage_post_OTA_ROM_samples_and_save_two_pass_match": true
   },
   "verified_save_profiles": [
     {
@@ -238,6 +253,13 @@
       "type": "flash128",
       "bytes": 131072,
       "flash_id": "09C2"
+    },
+    {
+      "game_code": "B24J",
+      "revision": 0,
+      "type": "flash64",
+      "bytes": 65536,
+      "flash_id": "D4BF"
     }
   ]
 }
