@@ -112,12 +112,12 @@
       "sha256": "17ccbcf4b17a910795292fb4a95f4742d2ecda37d06fcf20d60ffbd70cfbc609"
     },
     "README.md": {
-      "bytes": 9416,
-      "sha256": "ee532de3c949ee39b2c7b665bef7c777f2dcdc35023063b3c8bbdc1d7717734f"
+      "bytes": 10103,
+      "sha256": "5d22e7b5a59bcb49b9c3e91f2dda3f8e7e770d2254ea1dba27c8d771c41cd8db"
     },
     "RELEASE_NOTES.md": {
-      "bytes": 8673,
-      "sha256": "da0cd4de3d11d87bbdd4c078d27999a6ae0dfca8b6272e189c78687b7067a626"
+      "bytes": 9483,
+      "sha256": "58fc0d9ed6ea414f4f19ae40c2ae8f4e305f9ee9c103289c5f8d4b70c96427d6"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2783,
@@ -128,12 +128,12 @@
       "sha256": "658ba753f368643855450392218b22c8ab1b2c3d7141dd625267e34e75924a71"
     },
     "USAGE.md": {
-      "bytes": 7256,
-      "sha256": "598fdf311d0a80ea5e2bf5eede8c214b7295e1758ae81379be425fcb38033069"
+      "bytes": 7647,
+      "sha256": "cc28a8252a02d884a223aef4d6e97f3189e47e726f80e664efd2add520553b19"
     },
     "VALIDATION.md": {
-      "bytes": 20855,
-      "sha256": "2cd3e8c953566fd2a39434815b873a6239427148cf90d77dc56dd4fe73a7d69d"
+      "bytes": 26590,
+      "sha256": "78f9b8aa4a0c88eea169245b50661621edf4e9f0ab1169f7f3a82d9793060352"
     },
     "docs/images/gba-dumper-smartphone.jpg": {
       "bytes": 242752,
@@ -261,5 +261,40 @@
       "bytes": 65536,
       "flash_id": "D4BF"
     }
-  ]
+  ],
+  "validation_updated": "2026-10-28",
+  "quality_validation": {
+    "firmware_version": "0.25.4",
+    "binary_changed": false,
+    "host": {
+      "groups_passed": 34,
+      "synthetic_platform": true
+    },
+    "hardware": {
+      "game_code": "B24J",
+      "revision": 0,
+      "flash_id": "D4BF",
+      "save_bytes": 65536,
+      "browser_connections_succeeded": 30,
+      "soak_window_seconds": 3600,
+      "soak_seconds_including_final_checks": 3618.6564890830778,
+      "soak_WS_connections": 50,
+      "soak_HTTP_requests_counted": 613,
+      "soak_unexpected_errors": 0,
+      "ROM_disconnect_recovery_full_passes": 3,
+      "save_read_disconnect_positions": 3,
+      "distinct_candidate_unconfirmed_rollback": true,
+      "save_stage_interruption_checked": true,
+      "save_lost_reply_actual_programming_checked": true,
+      "same_page_restore_original_two_pass": true,
+      "fresh_page_import_restore_original_two_pass": true,
+      "final_original_save_preserved": true
+    },
+    "iPhone": {
+      "normal_ROM_save_Web_operations_user_reported": true,
+      "received_file_hash_rechecked": false
+    },
+    "physical_interruption_trials_complete": false,
+    "details": "VALIDATION.md"
+  }
 }
