@@ -27,9 +27,13 @@
       "bytes": 591,
       "sha256": "a8219b2cef82d89a7235dd4a6acab0d6977b34e7f80daca0374cef61ccebbc65"
     },
+    "EVALUATION.md": {
+      "bytes": 11252,
+      "sha256": "71a9dc7fc205eb81f95ae72da4050219a2964c86306e270aedba3a0af055f36b"
+    },
     "INSTALL.md": {
-      "bytes": 4717,
-      "sha256": "f597ae1930093545bd7cabda4b1992651895df7f2b8b06ea47f5537e1c68d090"
+      "bytes": 5018,
+      "sha256": "04d5603c51610c785d4891a7fb52059a2dabe310defd5a7faa5a5007f28ffbdd"
     },
     "LICENSE.md": {
       "bytes": 849,
@@ -112,8 +116,8 @@
       "sha256": "17ccbcf4b17a910795292fb4a95f4742d2ecda37d06fcf20d60ffbd70cfbc609"
     },
     "README.md": {
-      "bytes": 10103,
-      "sha256": "5d22e7b5a59bcb49b9c3e91f2dda3f8e7e770d2254ea1dba27c8d771c41cd8db"
+      "bytes": 10763,
+      "sha256": "ecbb203b07134983b53ff37aad5cfd9967a4c91cddac8002b984284666c1ac34"
     },
     "RELEASE_NOTES.md": {
       "bytes": 9483,
@@ -128,8 +132,8 @@
       "sha256": "658ba753f368643855450392218b22c8ab1b2c3d7141dd625267e34e75924a71"
     },
     "USAGE.md": {
-      "bytes": 7647,
-      "sha256": "cc28a8252a02d884a223aef4d6e97f3189e47e726f80e664efd2add520553b19"
+      "bytes": 8242,
+      "sha256": "6221df64f1ab6e2459b44dad7e80cfdf4fc2962cb5a805661f6d3b2627e91e40"
     },
     "VALIDATION.md": {
       "bytes": 26590,
@@ -296,5 +300,7 @@
     },
     "physical_interruption_trials_complete": false,
     "details": "VALIDATION.md"
-  }
+  },
+  "documentation_updated": "2026-11-01",
+  "evaluator_guide": "EVALUATION.md"
 }
